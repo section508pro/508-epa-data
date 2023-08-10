@@ -1,0 +1,222 @@
+[
+  {
+    "id": "aria-hidden-focus",
+    "title": "`[aria-hidden=\"true\"]` elements contain focusable descendents",
+    "description": "Focusable descendents within an `[aria-hidden=\"true\"]` element prevent those interactive elements from being available to users of assistive technologies like screen readers. [Learn more](https://web.dev/aria-hidden-focus/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-241-LI",
+            "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,0,LI",
+            "selector": "div#tns1-ow > div#tns1-iw > ul#tns1 > li#tns1-item0",
+            "boundingRect": {
+              "top": 341,
+              "bottom": 839,
+              "left": -1350,
+              "right": 0,
+              "width": 1350,
+              "height": 498
+            },
+            "snippet": "<li class=\"hero-slideshow__item tns-item tns-normal\" id=\"tns1-item0\" style=\"\" aria-hidden=\"true\" tabindex=\"-1\">",
+            "nodeLabel": "EPA Awards Research Grants to 21 Student Teams\n\n21 Student Teams Were Awarded G…",
+            "explanation": "Fix all of the following:\n  Focusable content should have tabindex='-1' or be removed from the DOM"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-42-A",
+                  "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,0,LI,0,SECTION,0,DIV,0,DIV,2,P,0,A",
+                  "selector": "div.grid-container > div.usa-hero__callout > p > a",
+                  "boundingRect": {
+                    "top": 628,
+                    "bottom": 650,
+                    "left": -563,
+                    "right": -408,
+                    "width": 155,
+                    "height": 22
+                  },
+                  "snippet": "<a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"af3c03e7-b944-4ed8-80cd-c6100415905d\" href=\"/newsreleases/epa-awards-research-grants-21-student-teams-develop-innovati…\">",
+                  "nodeLabel": "Read the Article Here"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-242-LI",
+            "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,1,LI",
+            "selector": "div#tns1-ow > div#tns1-iw > ul#tns1 > li#tns1-item1",
+            "boundingRect": {
+              "top": 341,
+              "bottom": 839,
+              "left": -1350,
+              "right": 0,
+              "width": 1350,
+              "height": 498
+            },
+            "snippet": "<li class=\"hero-slideshow__item tns-item tns-normal\" id=\"tns1-item1\" aria-hidden=\"true\" tabindex=\"-1\" style=\"\">",
+            "nodeLabel": "P3 - People, Prosperity and the Planet\n\nEPA Awards Nearly $500,000 to Five Stud…",
+            "explanation": "Fix all of the following:\n  Focusable content should have tabindex='-1' or be removed from the DOM"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-43-A",
+                  "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,1,LI,0,SECTION,0,DIV,0,DIV,2,P,0,A",
+                  "selector": "div.grid-container > div.usa-hero__callout > p > a",
+                  "boundingRect": {
+                    "top": 628,
+                    "bottom": 650,
+                    "left": -563,
+                    "right": -402,
+                    "width": 161,
+                    "height": 22
+                  },
+                  "snippet": "<a href=\"/newsreleases/epa-awards-nearly-500000-student-teams-environmental-technol…\">",
+                  "nodeLabel": "Read the news release"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-44-A",
+                  "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,1,LI,0,SECTION,0,DIV,0,DIV,3,P,0,A",
+                  "selector": "div.grid-container > div.usa-hero__callout > p > a",
+                  "boundingRect": {
+                    "top": 669,
+                    "bottom": 691,
+                    "left": -563,
+                    "right": -348,
+                    "width": 215,
+                    "height": 22
+                  },
+                  "snippet": "<a href=\"/node/269988/#phase2\">",
+                  "nodeLabel": "Learn more about the winners"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-243-LI",
+            "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,3,LI",
+            "selector": "div#tns1-ow > div#tns1-iw > ul#tns1 > li#tns1-item3",
+            "boundingRect": {
+              "top": 341,
+              "bottom": 839,
+              "left": -1350,
+              "right": 0,
+              "width": 1350,
+              "height": 498
+            },
+            "snippet": "<li class=\"hero-slideshow__item tns-item tns-normal\" id=\"tns1-item3\" aria-hidden=\"true\" tabindex=\"-1\">",
+            "nodeLabel": "2021 National Student Design Competition\n\nProjects from the 2021 National Stude…",
+            "explanation": "Fix all of the following:\n  Focusable content should have tabindex='-1' or be removed from the DOM"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-47-A",
+                  "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,3,LI,0,SECTION,0,DIV,0,DIV,1,P,0,A",
+                  "selector": "div.grid-container > div.usa-hero__callout > p > a",
+                  "boundingRect": {
+                    "top": 535,
+                    "bottom": 583,
+                    "left": -563,
+                    "right": -272,
+                    "width": 291,
+                    "height": 47
+                  },
+                  "snippet": "<a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"d7789d64-0a8b-45e3-9326-4b26ac196453\" href=\"/P3/2021-national-student-design-competition\">",
+                  "nodeLabel": "Projects from the 2021 National Student Design Competition Expo"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-244-LI",
+            "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,4,LI",
+            "selector": "div#tns1-ow > div#tns1-iw > ul#tns1 > li.hero-slideshow__item",
+            "boundingRect": {
+              "top": 341,
+              "bottom": 839,
+              "left": -1350,
+              "right": 0,
+              "width": 1350,
+              "height": 498
+            },
+            "snippet": "<li class=\"hero-slideshow__item tns-item tns-normal tns-slide-cloned\" aria-hidden=\"true\" tabindex=\"-1\">",
+            "nodeLabel": "EPA Awards Research Grants to 21 Student Teams\n\n21 Student Teams Were Awarded G…",
+            "explanation": "Fix all of the following:\n  Focusable content should have tabindex='-1' or be removed from the DOM"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-48-A",
+                  "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,4,LI,0,SECTION,0,DIV,0,DIV,2,P,0,A",
+                  "selector": "div.grid-container > div.usa-hero__callout > p > a",
+                  "boundingRect": {
+                    "top": 628,
+                    "bottom": 650,
+                    "left": -563,
+                    "right": -408,
+                    "width": 155,
+                    "height": 22
+                  },
+                  "snippet": "<a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"af3c03e7-b944-4ed8-80cd-c6100415905d\" href=\"/newsreleases/epa-awards-research-grants-21-student-teams-develop-innovati…\">",
+                  "nodeLabel": "Read the Article Here"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 4
+  }
+]

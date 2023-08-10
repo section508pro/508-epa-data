@@ -1,0 +1,304 @@
+[
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more](https://web.dev/image-alt/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-269-IMG",
+            "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,30,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,IMG",
+            "selector": "div.leaflet-tile-pane > div.leaflet-layer > div.leaflet-tile-container > img.leaflet-tile",
+            "boundingRect": {
+              "top": 2566,
+              "bottom": 2822,
+              "left": 490,
+              "right": 746,
+              "width": 256,
+              "height": 256
+            },
+            "snippet": "<img class=\"leaflet-tile leaflet-tile-loaded\" src=\"https://b.tile.osm.org/18/79329/96961.png\" style=\"height: 256px; width: 256px; left: 15px; top: 175px;\">",
+            "nodeLabel": "div.leaflet-tile-pane > div.leaflet-layer > div.leaflet-tile-container > img.leaflet-tile",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-270-IMG",
+            "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,30,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,IMG",
+            "selector": "div.leaflet-tile-pane > div.leaflet-layer > div.leaflet-tile-container > img.leaflet-tile",
+            "boundingRect": {
+              "top": 2566,
+              "bottom": 2822,
+              "left": 746,
+              "right": 1002,
+              "width": 256,
+              "height": 256
+            },
+            "snippet": "<img class=\"leaflet-tile leaflet-tile-loaded\" src=\"https://c.tile.osm.org/18/79330/96961.png\" style=\"height: 256px; width: 256px; left: 271px; top: 175px;\">",
+            "nodeLabel": "div.leaflet-tile-pane > div.leaflet-layer > div.leaflet-tile-container > img.leaflet-tile",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-271-IMG",
+            "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,30,DIV,0,DIV,0,DIV,0,DIV,1,DIV,2,IMG",
+            "selector": "div.leaflet-tile-pane > div.leaflet-layer > div.leaflet-tile-container > img.leaflet-tile",
+            "boundingRect": {
+              "top": 2310,
+              "bottom": 2566,
+              "left": 490,
+              "right": 746,
+              "width": 256,
+              "height": 256
+            },
+            "snippet": "<img class=\"leaflet-tile leaflet-tile-loaded\" src=\"https://a.tile.osm.org/18/79329/96960.png\" style=\"height: 256px; width: 256px; left: 15px; top: -81px;\">",
+            "nodeLabel": "div.leaflet-tile-pane > div.leaflet-layer > div.leaflet-tile-container > img.leaflet-tile",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-272-IMG",
+            "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,30,DIV,0,DIV,0,DIV,0,DIV,1,DIV,3,IMG",
+            "selector": "div.leaflet-tile-pane > div.leaflet-layer > div.leaflet-tile-container > img.leaflet-tile",
+            "boundingRect": {
+              "top": 2310,
+              "bottom": 2566,
+              "left": 746,
+              "right": 1002,
+              "width": 256,
+              "height": 256
+            },
+            "snippet": "<img class=\"leaflet-tile leaflet-tile-loaded\" src=\"https://b.tile.osm.org/18/79330/96960.png\" style=\"height: 256px; width: 256px; left: 271px; top: -81px;\">",
+            "nodeLabel": "div.leaflet-tile-pane > div.leaflet-layer > div.leaflet-tile-container > img.leaflet-tile",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-273-IMG",
+            "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,30,DIV,0,DIV,0,DIV,0,DIV,1,DIV,4,IMG",
+            "selector": "div.leaflet-tile-pane > div.leaflet-layer > div.leaflet-tile-container > img.leaflet-tile",
+            "boundingRect": {
+              "top": 2822,
+              "bottom": 3078,
+              "left": 490,
+              "right": 746,
+              "width": 256,
+              "height": 256
+            },
+            "snippet": "<img class=\"leaflet-tile leaflet-tile-loaded\" src=\"https://c.tile.osm.org/18/79329/96962.png\" style=\"height: 256px; width: 256px; left: 15px; top: 431px;\">",
+            "nodeLabel": "div.leaflet-tile-pane > div.leaflet-layer > div.leaflet-tile-container > img.leaflet-tile",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-274-IMG",
+            "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,30,DIV,0,DIV,0,DIV,0,DIV,1,DIV,5,IMG",
+            "selector": "div.leaflet-tile-pane > div.leaflet-layer > div.leaflet-tile-container > img.leaflet-tile",
+            "boundingRect": {
+              "top": 2822,
+              "bottom": 3078,
+              "left": 746,
+              "right": 1002,
+              "width": 256,
+              "height": 256
+            },
+            "snippet": "<img class=\"leaflet-tile leaflet-tile-loaded\" src=\"https://a.tile.osm.org/18/79330/96962.png\" style=\"height: 256px; width: 256px; left: 271px; top: 431px;\">",
+            "nodeLabel": "div.leaflet-tile-pane > div.leaflet-layer > div.leaflet-tile-container > img.leaflet-tile",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-275-IMG",
+            "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,30,DIV,0,DIV,0,DIV,0,DIV,1,DIV,6,IMG",
+            "selector": "div.leaflet-tile-pane > div.leaflet-layer > div.leaflet-tile-container > img.leaflet-tile",
+            "boundingRect": {
+              "top": 2566,
+              "bottom": 2822,
+              "left": 234,
+              "right": 490,
+              "width": 256,
+              "height": 256
+            },
+            "snippet": "<img class=\"leaflet-tile leaflet-tile-loaded\" src=\"https://a.tile.osm.org/18/79328/96961.png\" style=\"height: 256px; width: 256px; left: -241px; top: 175px;\">",
+            "nodeLabel": "div.leaflet-tile-pane > div.leaflet-layer > div.leaflet-tile-container > img.leaflet-tile",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-276-IMG",
+            "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,30,DIV,0,DIV,0,DIV,0,DIV,1,DIV,7,IMG",
+            "selector": "div.leaflet-tile-pane > div.leaflet-layer > div.leaflet-tile-container > img.leaflet-tile",
+            "boundingRect": {
+              "top": 2566,
+              "bottom": 2822,
+              "left": 1002,
+              "right": 1258,
+              "width": 256,
+              "height": 256
+            },
+            "snippet": "<img class=\"leaflet-tile leaflet-tile-loaded\" src=\"https://a.tile.osm.org/18/79331/96961.png\" style=\"height: 256px; width: 256px; left: 527px; top: 175px;\">",
+            "nodeLabel": "div.leaflet-tile-pane > div.leaflet-layer > div.leaflet-tile-container > img.leaflet-tile",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-277-IMG",
+            "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,30,DIV,0,DIV,0,DIV,0,DIV,1,DIV,8,IMG",
+            "selector": "div.leaflet-tile-pane > div.leaflet-layer > div.leaflet-tile-container > img.leaflet-tile",
+            "boundingRect": {
+              "top": 2310,
+              "bottom": 2566,
+              "left": 234,
+              "right": 490,
+              "width": 256,
+              "height": 256
+            },
+            "snippet": "<img class=\"leaflet-tile leaflet-tile-loaded\" src=\"https://c.tile.osm.org/18/79328/96960.png\" style=\"height: 256px; width: 256px; left: -241px; top: -81px;\">",
+            "nodeLabel": "div.leaflet-tile-pane > div.leaflet-layer > div.leaflet-tile-container > img.leaflet-tile",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-278-IMG",
+            "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,30,DIV,0,DIV,0,DIV,0,DIV,1,DIV,9,IMG",
+            "selector": "div.leaflet-tile-pane > div.leaflet-layer > div.leaflet-tile-container > img.leaflet-tile",
+            "boundingRect": {
+              "top": 2310,
+              "bottom": 2566,
+              "left": 1002,
+              "right": 1258,
+              "width": 256,
+              "height": 256
+            },
+            "snippet": "<img class=\"leaflet-tile leaflet-tile-loaded\" src=\"https://c.tile.osm.org/18/79331/96960.png\" style=\"height: 256px; width: 256px; left: 527px; top: -81px;\">",
+            "nodeLabel": "div.leaflet-tile-pane > div.leaflet-layer > div.leaflet-tile-container > img.leaflet-tile",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-279-IMG",
+            "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,30,DIV,0,DIV,0,DIV,0,DIV,1,DIV,10,IMG",
+            "selector": "div.leaflet-tile-pane > div.leaflet-layer > div.leaflet-tile-container > img.leaflet-tile",
+            "boundingRect": {
+              "top": 2822,
+              "bottom": 3078,
+              "left": 234,
+              "right": 490,
+              "width": 256,
+              "height": 256
+            },
+            "snippet": "<img class=\"leaflet-tile leaflet-tile-loaded\" src=\"https://b.tile.osm.org/18/79328/96962.png\" style=\"height: 256px; width: 256px; left: -241px; top: 431px;\">",
+            "nodeLabel": "div.leaflet-tile-pane > div.leaflet-layer > div.leaflet-tile-container > img.leaflet-tile",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-280-IMG",
+            "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,30,DIV,0,DIV,0,DIV,0,DIV,1,DIV,11,IMG",
+            "selector": "div.leaflet-tile-pane > div.leaflet-layer > div.leaflet-tile-container > img.leaflet-tile",
+            "boundingRect": {
+              "top": 2822,
+              "bottom": 3078,
+              "left": 1002,
+              "right": 1258,
+              "width": 256,
+              "height": 256
+            },
+            "snippet": "<img class=\"leaflet-tile leaflet-tile-loaded\" src=\"https://b.tile.osm.org/18/79331/96962.png\" style=\"height: 256px; width: 256px; left: 527px; top: 431px;\">",
+            "nodeLabel": "div.leaflet-tile-pane > div.leaflet-layer > div.leaflet-tile-container > img.leaflet-tile",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-281-IMG",
+            "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,30,DIV,0,DIV,1,DIV,0,DIV,0,IMG",
+            "selector": "div.leaflet-map-pane > div.leaflet-objects-pane > div.leaflet-shadow-pane > img.leaflet-marker-shadow",
+            "boundingRect": {
+              "top": 2618,
+              "bottom": 2659,
+              "left": 806,
+              "right": 847,
+              "width": 41,
+              "height": 41
+            },
+            "snippet": "<img src=\"https://www.epa.gov/sites/all/libraries/leaflet/images/marker-shadow.png\" class=\"leaflet-marker-shadow leaflet-zoom-animated\" style=\"margin-left: -12px; margin-top: -41px; width: 41px; height: 41px;\">",
+            "nodeLabel": "div.leaflet-map-pane > div.leaflet-objects-pane > div.leaflet-shadow-pane > img.leaflet-marker-shadow",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-282-IMG",
+            "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,30,DIV,0,DIV,1,DIV,2,DIV,0,IMG",
+            "selector": "div.leaflet-map-pane > div.leaflet-objects-pane > div.leaflet-marker-pane > img.leaflet-marker-icon",
+            "boundingRect": {
+              "top": 2618,
+              "bottom": 2659,
+              "left": 806,
+              "right": 831,
+              "width": 25,
+              "height": 41
+            },
+            "snippet": "<img src=\"https://www.epa.gov/sites/all/libraries/leaflet/images/marker-icon.png\" class=\"leaflet-marker-icon leaflet-zoom-animated leaflet-clickable\" tabindex=\"0\" style=\"margin-left: -12px; margin-top: -41px; width: 25px; height: 41px;\">",
+            "nodeLabel": "div.leaflet-map-pane > div.leaflet-objects-pane > div.leaflet-marker-pane > img.leaflet-marker-icon",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 14
+  }
+]

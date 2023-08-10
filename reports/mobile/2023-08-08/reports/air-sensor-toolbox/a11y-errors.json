@@ -1,0 +1,362 @@
+[
+  {
+    "id": "aria-hidden-focus",
+    "title": "`[aria-hidden=\"true\"]` elements contain focusable descendents",
+    "description": "Focusable descendents within an `[aria-hidden=\"true\"]` element prevent those interactive elements from being available to users of assistive technologies like screen readers. [Learn more](https://web.dev/aria-hidden-focus/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-240-LI",
+            "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,0,LI",
+            "selector": "div#tns1-ow > div#tns1-iw > ul#tns1 > li#tns1-item0",
+            "boundingRect": {
+              "top": 364,
+              "bottom": 814,
+              "left": -412,
+              "right": 0,
+              "width": 412,
+              "height": 450
+            },
+            "snippet": "<li class=\"hero-slideshow__item tns-item tns-normal\" id=\"tns1-item0\" style=\"\" aria-hidden=\"true\" tabindex=\"-1\">",
+            "nodeLabel": "Learn about air sensors with our new video!\n\nCheck out our new video about air …",
+            "explanation": "Fix all of the following:\n  Focusable content should have tabindex='-1' or be removed from the DOM"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-42-A",
+                  "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,0,LI,0,SECTION,0,DIV,0,DIV,2,UL,0,LI,0,A",
+                  "selector": "div.usa-hero__callout > ul > li > a",
+                  "boundingRect": {
+                    "top": 677,
+                    "bottom": 698,
+                    "left": -331,
+                    "right": -258,
+                    "width": 73,
+                    "height": 21
+                  },
+                  "snippet": "<a href=\"https://www.youtube.com/watch?v=OVkpILyDw-I\" data-once=\"external-links protected-links\">",
+                  "nodeLabel": "English"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-43-A",
+                  "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,0,LI,0,SECTION,0,DIV,0,DIV,2,UL,1,LI,0,A",
+                  "selector": "div.usa-hero__callout > ul > li > a",
+                  "boundingRect": {
+                    "top": 703,
+                    "bottom": 724,
+                    "left": -331,
+                    "right": -253,
+                    "width": 78,
+                    "height": 21
+                  },
+                  "snippet": "<a href=\"https://www.youtube.com/watch?v=UF1gb7VvbNI\" data-once=\"external-links protected-links\">",
+                  "nodeLabel": "Spanish"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-241-LI",
+            "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,1,LI",
+            "selector": "div#tns1-ow > div#tns1-iw > ul#tns1 > li#tns1-item1",
+            "boundingRect": {
+              "top": 364,
+              "bottom": 814,
+              "left": -412,
+              "right": 0,
+              "width": 412,
+              "height": 450
+            },
+            "snippet": "<li class=\"hero-slideshow__item tns-item tns-normal\" id=\"tns1-item1\" aria-hidden=\"true\" tabindex=\"-1\" style=\"\">",
+            "nodeLabel": "Updated Version of EPA's Air Sensor Guidebook Released!\n\nLearn how to effective…",
+            "explanation": "Fix all of the following:\n  Focusable content should have tabindex='-1' or be removed from the DOM"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-44-A",
+                  "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,1,LI,0,SECTION,0,DIV,0,DIV,2,P,1,A",
+                  "selector": "div.grid-container > div.usa-hero__callout > p > a",
+                  "boundingRect": {
+                    "top": 664,
+                    "bottom": 710,
+                    "left": -356,
+                    "right": -60,
+                    "width": 296,
+                    "height": 46
+                  },
+                  "snippet": "<a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"838fb924-cba0-4bb0-a4a0-a0354a02a2ac\" href=\"/sciencematters/epa-researchers-update-air-sensor-guidebook\">",
+                  "nodeLabel": "The Enhanced Air Sensor Guidebook Science Matters"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-242-LI",
+            "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,3,LI",
+            "selector": "div#tns1-ow > div#tns1-iw > ul#tns1 > li.hero-slideshow__item",
+            "boundingRect": {
+              "top": 364,
+              "bottom": 814,
+              "left": -412,
+              "right": 0,
+              "width": 412,
+              "height": 450
+            },
+            "snippet": "<li class=\"hero-slideshow__item tns-item tns-normal tns-slide-cloned\" aria-hidden=\"true\" tabindex=\"-1\">",
+            "nodeLabel": "Updated Version of EPA's Air Sensor Guidebook Released!\n\nLearn how to effective…",
+            "explanation": "Fix all of the following:\n  Focusable content should have tabindex='-1' or be removed from the DOM"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-47-A",
+                  "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,3,LI,0,SECTION,0,DIV,0,DIV,2,P,1,A",
+                  "selector": "div.grid-container > div.usa-hero__callout > p > a",
+                  "boundingRect": {
+                    "top": 664,
+                    "bottom": 710,
+                    "left": -356,
+                    "right": -60,
+                    "width": 296,
+                    "height": 46
+                  },
+                  "snippet": "<a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"838fb924-cba0-4bb0-a4a0-a0354a02a2ac\" href=\"/sciencematters/epa-researchers-update-air-sensor-guidebook\">",
+                  "nodeLabel": "The Enhanced Air Sensor Guidebook Science Matters"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 3
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-243-H6",
+            "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,4,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,FORM,1,FIELDSET,0,H6",
+            "selector": "div.box__content > form.govdelivery-form > fieldset.govdelivery-fieldset > h6",
+            "boundingRect": {
+              "top": 2470,
+              "bottom": 2515,
+              "left": 45,
+              "right": 367,
+              "width": 322,
+              "height": 46
+            },
+            "snippet": "<h6>",
+            "nodeLabel": "GET AIR SENSOR NEWS BY EMAIL \nENTER EMAIL ADDRESS\nsign up",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "label",
+    "title": "Form elements do not have associated labels",
+    "description": "Labels ensure that form controls are announced properly by assistive technologies, like screen readers. [Learn more](https://web.dev/label/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-238-INPUT",
+            "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,4,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,FORM,1,FIELDSET,0,H6,2,INPUT",
+            "selector": "form.govdelivery-form > fieldset.govdelivery-fieldset > h6 > input#email",
+            "boundingRect": {
+              "top": 2470,
+              "bottom": 2493,
+              "left": 256,
+              "right": 365,
+              "width": 109,
+              "height": 24
+            },
+            "snippet": "<input class=\"govdelivery-text form-text\" id=\"email\" name=\"email\" size=\"15\" type=\"text\">",
+            "nodeLabel": "form.govdelivery-form > fieldset.govdelivery-fieldset > h6 > input#email",
+            "explanation": "Fix any of the following:\n  Form element does not have an implicit (wrapped) <label>\n  Form element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.forms",
+          "wcag2a",
+          "wcag412",
+          "wcag131",
+          "section508",
+          "section508.22.n",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-56-A",
+            "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,4,DIV,1,DIV,0,DIV,1,DIV,0,P,0,A",
+            "selector": "div.box > div.box__content > p > a",
+            "boundingRect": {
+              "top": 1805,
+              "bottom": 1805,
+              "left": 24,
+              "right": 24,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/air-sensor-toolbox/videos-air-sensor-measurements-data-quality-and-interp…\">",
+            "nodeLabel": "div.box > div.box__content > p > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-58-A",
+            "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,4,DIV,1,DIV,0,DIV,1,DIV,1,FIGURE,1,A",
+            "selector": "div.box > div.box__content > figure.figure > a",
+            "boundingRect": {
+              "top": 1930,
+              "bottom": 1930,
+              "left": 24,
+              "right": 24,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/air-sensor-toolbox/videos-air-sensor-measurements-data-quality-and-interp…\">",
+            "nodeLabel": "div.box > div.box__content > figure.figure > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]

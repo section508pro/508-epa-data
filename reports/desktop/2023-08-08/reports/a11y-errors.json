@@ -1,0 +1,162 @@
+[
+  {
+    "id": "aria-hidden-focus",
+    "title": "`[aria-hidden=\"true\"]` elements contain focusable descendents",
+    "description": "Focusable descendents within an `[aria-hidden=\"true\"]` element prevent those interactive elements from being available to users of assistive technologies like screen readers. [Learn more](https://web.dev/aria-hidden-focus/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-240-LI",
+            "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,0,LI",
+            "selector": "div#tns1-ow > div#tns1-iw > ul#tns1 > li#tns1-item0",
+            "boundingRect": {
+              "top": 294,
+              "bottom": 848,
+              "left": -1350,
+              "right": 0,
+              "width": 1350,
+              "height": 554
+            },
+            "snippet": "<li class=\"hero-slideshow__item tns-item tns-normal\" id=\"tns1-item0\" style=\"\" aria-hidden=\"true\" tabindex=\"-1\">",
+            "nodeLabel": "Make Your Voice Heard!\n\nJoin EPA’s National Environmental Youth Advisory Counci…",
+            "explanation": "Fix all of the following:\n  Focusable content should have tabindex='-1' or be removed from the DOM"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-42-A",
+                  "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,0,LI,0,SECTION,0,DIV,0,DIV,2,P,0,A",
+                  "selector": "div.grid-container > div.usa-hero__callout > p > a.usa-button",
+                  "boundingRect": {
+                    "top": 593,
+                    "bottom": 632,
+                    "left": -563,
+                    "right": -255,
+                    "width": 308,
+                    "height": 39
+                  },
+                  "snippet": "<a class=\"usa-button\" href=\"/education/national-environmental-youth-advisory-council-neyac\">",
+                  "nodeLabel": "Learn more about NEYAC and apply"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-241-LI",
+            "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,1,LI",
+            "selector": "div#tns1-ow > div#tns1-iw > ul#tns1 > li#tns1-item1",
+            "boundingRect": {
+              "top": 294,
+              "bottom": 848,
+              "left": -1350,
+              "right": 0,
+              "width": 1350,
+              "height": 554
+            },
+            "snippet": "<li class=\"hero-slideshow__item tns-item tns-normal\" id=\"tns1-item1\" aria-hidden=\"true\" tabindex=\"-1\" style=\"\">",
+            "nodeLabel": "Children and Extreme Heat\n\nExtreme heat can have dangerous effects on kids, lik…",
+            "explanation": "Fix all of the following:\n  Focusable content should have tabindex='-1' or be removed from the DOM"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-43-A",
+                  "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,1,LI,0,SECTION,0,DIV,0,DIV,2,P,0,A",
+                  "selector": "div.grid-container > div.usa-hero__callout > p > a.usa-button",
+                  "boundingRect": {
+                    "top": 593,
+                    "bottom": 648,
+                    "left": -563,
+                    "right": -235,
+                    "width": 328,
+                    "height": 55
+                  },
+                  "snippet": "<a class=\"usa-button\" href=\"/perspectives/protecting-children-extreme-heat\">",
+                  "nodeLabel": "Learn more about children and extreme heat"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-242-LI",
+            "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,3,LI",
+            "selector": "div#tns1-ow > div#tns1-iw > ul#tns1 > li.hero-slideshow__item",
+            "boundingRect": {
+              "top": 294,
+              "bottom": 848,
+              "left": -1350,
+              "right": 0,
+              "width": 1350,
+              "height": 554
+            },
+            "snippet": "<li class=\"hero-slideshow__item tns-item tns-normal tns-slide-cloned\" aria-hidden=\"true\" tabindex=\"-1\">",
+            "nodeLabel": "Make Your Voice Heard!\n\nJoin EPA’s National Environmental Youth Advisory Counci…",
+            "explanation": "Fix all of the following:\n  Focusable content should have tabindex='-1' or be removed from the DOM"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-45-A",
+                  "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,3,LI,0,SECTION,0,DIV,0,DIV,2,P,0,A",
+                  "selector": "div.grid-container > div.usa-hero__callout > p > a.usa-button",
+                  "boundingRect": {
+                    "top": 593,
+                    "bottom": 632,
+                    "left": -563,
+                    "right": -255,
+                    "width": 308,
+                    "height": 39
+                  },
+                  "snippet": "<a class=\"usa-button\" href=\"/education/national-environmental-youth-advisory-council-neyac\">",
+                  "nodeLabel": "Learn more about NEYAC and apply"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 3
+  }
+]

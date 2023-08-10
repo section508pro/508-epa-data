@@ -1,0 +1,156 @@
+[
+  {
+    "id": "aria-hidden-focus",
+    "title": "`[aria-hidden=\"true\"]` elements contain focusable descendents",
+    "description": "Focusable descendents within an `[aria-hidden=\"true\"]` element prevent those interactive elements from being available to users of assistive technologies like screen readers. [Learn more](https://web.dev/aria-hidden-focus/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-234-LI",
+            "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,1,LI",
+            "selector": "div#tns1-ow > div#tns1-iw > ul#tns1 > li#tns1-item1",
+            "boundingRect": {
+              "top": 294,
+              "bottom": 665,
+              "left": -1350,
+              "right": 0,
+              "width": 1350,
+              "height": 371
+            },
+            "snippet": "<li class=\"hero-slideshow__item tns-item tns-normal\" id=\"tns1-item1\" aria-hidden=\"true\" tabindex=\"-1\" style=\"\">",
+            "nodeLabel": "Join Our Advance Community\nOverview\nCurrent Advance Program Participants\nAre yo…",
+            "explanation": "Fix all of the following:\n  Focusable content should have tabindex='-1' or be removed from the DOM"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-42-A",
+                  "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,1,LI,0,SECTION,0,DIV,0,DIV,1,UL,0,LI,0,A",
+                  "selector": "div.usa-hero__callout > ul > li > a",
+                  "boundingRect": {
+                    "top": 451,
+                    "bottom": 473,
+                    "left": -539,
+                    "right": -472,
+                    "width": 67,
+                    "height": 22
+                  },
+                  "snippet": "<a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"10f901bf-b72a-422f-a947-d2b9fb81f45e\" href=\"/advance/basic-information\">",
+                  "nodeLabel": "Overview"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-43-A",
+                  "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,1,LI,0,SECTION,0,DIV,0,DIV,1,UL,1,LI,0,A",
+                  "selector": "div.usa-hero__callout > ul > li > a",
+                  "boundingRect": {
+                    "top": 477,
+                    "bottom": 499,
+                    "left": -539,
+                    "right": -264,
+                    "width": 275,
+                    "height": 22
+                  },
+                  "snippet": "<a href=\"/advance/map-advance-program-areas\">",
+                  "nodeLabel": "Current Advance Program Participants"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-44-A",
+                  "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,1,LI,0,SECTION,0,DIV,0,DIV,1,UL,2,LI,0,A",
+                  "selector": "div.usa-hero__callout > ul > li > a",
+                  "boundingRect": {
+                    "top": 502,
+                    "bottom": 524,
+                    "left": -539,
+                    "right": -419,
+                    "width": 120,
+                    "height": 22
+                  },
+                  "snippet": "<a href=\"/node/127207/latest\">",
+                  "nodeLabel": "Are you eligible?"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-235-LI",
+            "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,3,LI",
+            "selector": "div#tns1-ow > div#tns1-iw > ul#tns1 > li#tns1-item3",
+            "boundingRect": {
+              "top": 294,
+              "bottom": 665,
+              "left": -1350,
+              "right": 0,
+              "width": 1350,
+              "height": 371
+            },
+            "snippet": "<li class=\"hero-slideshow__item tns-item tns-normal\" id=\"tns1-item3\" aria-hidden=\"true\" tabindex=\"-1\">",
+            "nodeLabel": "Resources and Technical Assistance\n\nResources and Technical Assistance",
+            "explanation": "Fix all of the following:\n  Focusable content should have tabindex='-1' or be removed from the DOM"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-46-A",
+                  "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,3,LI,0,SECTION,0,DIV,0,DIV,1,P,0,A",
+                  "selector": "div.grid-container > div.usa-hero__callout > p > a",
+                  "boundingRect": {
+                    "top": 451,
+                    "bottom": 473,
+                    "left": -563,
+                    "right": -308,
+                    "width": 255,
+                    "height": 22
+                  },
+                  "snippet": "<a href=\"/advance/epa-resources-and-technical-assistance\">",
+                  "nodeLabel": "Resources and Technical Assistance"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]

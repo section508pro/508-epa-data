@@ -1,0 +1,1178 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-233-H2",
+            "path": "1,HTML,1,BODY,4,DIV,4,FOOTER,0,DIV,1,DIV,0,DIV,0,H2",
+            "selector": "div.l-constrain > div.footer__content > div.footer__column > h2",
+            "boundingRect": {
+              "top": 2963,
+              "bottom": 3000,
+              "left": 24,
+              "right": 267,
+              "width": 243,
+              "height": 37
+            },
+            "snippet": "<h2>",
+            "nodeLabel": "Discover.",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.97 (foreground color: #ffffff, background color: #6495ed, font size: 23.4pt (31.2px), font weight: bold). Expected contrast ratio of 3:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-234-FOOTER",
+                  "path": "1,HTML,1,BODY,4,DIV,4,FOOTER",
+                  "selector": "body#top > div.dialog-off-canvas-main-canvas > footer.footer",
+                  "boundingRect": {
+                    "top": 2783,
+                    "bottom": 4205,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 1422
+                  },
+                  "snippet": "<footer class=\"footer\" role=\"contentinfo\">",
+                  "nodeLabel": "Discover.\nAccessibility Statement\nBudget & Performance\nContracting\nEPA www Web …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-75-A",
+            "path": "1,HTML,1,BODY,4,DIV,4,FOOTER,0,DIV,1,DIV,0,DIV,1,UL,0,LI,0,A",
+            "selector": "div.footer__column > ul.menu > li.menu__item > a.menu__link",
+            "boundingRect": {
+              "top": 3016,
+              "bottom": 3037,
+              "left": 24,
+              "right": 267,
+              "width": 243,
+              "height": 21
+            },
+            "snippet": "<a href=\"/accessibility/epa-accessibility-statement\" class=\"menu__link\">",
+            "nodeLabel": "Accessibility Statement",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.26 (foreground color: #dfe1e2, background color: #6495ed, font size: 13.2pt (17.6px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-234-FOOTER",
+                  "path": "1,HTML,1,BODY,4,DIV,4,FOOTER",
+                  "selector": "body#top > div.dialog-off-canvas-main-canvas > footer.footer",
+                  "boundingRect": {
+                    "top": 2783,
+                    "bottom": 4205,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 1422
+                  },
+                  "snippet": "<footer class=\"footer\" role=\"contentinfo\">",
+                  "nodeLabel": "Discover.\nAccessibility Statement\nBudget & Performance\nContracting\nEPA www Web …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-76-A",
+            "path": "1,HTML,1,BODY,4,DIV,4,FOOTER,0,DIV,1,DIV,0,DIV,1,UL,2,LI,0,A",
+            "selector": "div.footer__column > ul.menu > li.menu__item > a.menu__link",
+            "boundingRect": {
+              "top": 3053,
+              "bottom": 3074,
+              "left": 24,
+              "right": 267,
+              "width": 243,
+              "height": 21
+            },
+            "snippet": "<a href=\"/planandbudget\" class=\"menu__link\">",
+            "nodeLabel": "Budget & Performance",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.26 (foreground color: #dfe1e2, background color: #6495ed, font size: 13.2pt (17.6px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-234-FOOTER",
+                  "path": "1,HTML,1,BODY,4,DIV,4,FOOTER",
+                  "selector": "body#top > div.dialog-off-canvas-main-canvas > footer.footer",
+                  "boundingRect": {
+                    "top": 2783,
+                    "bottom": 4205,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 1422
+                  },
+                  "snippet": "<footer class=\"footer\" role=\"contentinfo\">",
+                  "nodeLabel": "Discover.\nAccessibility Statement\nBudget & Performance\nContracting\nEPA www Web …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-77-A",
+            "path": "1,HTML,1,BODY,4,DIV,4,FOOTER,0,DIV,1,DIV,0,DIV,1,UL,3,LI,0,A",
+            "selector": "div.footer__column > ul.menu > li.menu__item > a.menu__link",
+            "boundingRect": {
+              "top": 3090,
+              "bottom": 3112,
+              "left": 24,
+              "right": 267,
+              "width": 243,
+              "height": 21
+            },
+            "snippet": "<a href=\"/contracts\" class=\"menu__link\">",
+            "nodeLabel": "Contracting",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.26 (foreground color: #dfe1e2, background color: #6495ed, font size: 13.2pt (17.6px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-234-FOOTER",
+                  "path": "1,HTML,1,BODY,4,DIV,4,FOOTER",
+                  "selector": "body#top > div.dialog-off-canvas-main-canvas > footer.footer",
+                  "boundingRect": {
+                    "top": 2783,
+                    "bottom": 4205,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 1422
+                  },
+                  "snippet": "<footer class=\"footer\" role=\"contentinfo\">",
+                  "nodeLabel": "Discover.\nAccessibility Statement\nBudget & Performance\nContracting\nEPA www Web …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-78-A",
+            "path": "1,HTML,1,BODY,4,DIV,4,FOOTER,0,DIV,1,DIV,0,DIV,1,UL,4,LI,0,A",
+            "selector": "div.footer__column > ul.menu > li.menu__item > a.menu__link",
+            "boundingRect": {
+              "top": 3128,
+              "bottom": 3149,
+              "left": 24,
+              "right": 267,
+              "width": 243,
+              "height": 21
+            },
+            "snippet": "<a href=\"/utilities/wwwepagov-snapshots\" class=\"menu__link\">",
+            "nodeLabel": "EPA www Web Snapshot",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.26 (foreground color: #dfe1e2, background color: #6495ed, font size: 13.2pt (17.6px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-234-FOOTER",
+                  "path": "1,HTML,1,BODY,4,DIV,4,FOOTER",
+                  "selector": "body#top > div.dialog-off-canvas-main-canvas > footer.footer",
+                  "boundingRect": {
+                    "top": 2783,
+                    "bottom": 4205,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 1422
+                  },
+                  "snippet": "<footer class=\"footer\" role=\"contentinfo\">",
+                  "nodeLabel": "Discover.\nAccessibility Statement\nBudget & Performance\nContracting\nEPA www Web …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-79-A",
+            "path": "1,HTML,1,BODY,4,DIV,4,FOOTER,0,DIV,1,DIV,0,DIV,1,UL,5,LI,0,A",
+            "selector": "div.footer__column > ul.menu > li.menu__item > a.menu__link",
+            "boundingRect": {
+              "top": 3165,
+              "bottom": 3186,
+              "left": 24,
+              "right": 267,
+              "width": 243,
+              "height": 21
+            },
+            "snippet": "<a href=\"/grants\" class=\"menu__link\">",
+            "nodeLabel": "Grants",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.26 (foreground color: #dfe1e2, background color: #6495ed, font size: 13.2pt (17.6px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-234-FOOTER",
+                  "path": "1,HTML,1,BODY,4,DIV,4,FOOTER",
+                  "selector": "body#top > div.dialog-off-canvas-main-canvas > footer.footer",
+                  "boundingRect": {
+                    "top": 2783,
+                    "bottom": 4205,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 1422
+                  },
+                  "snippet": "<footer class=\"footer\" role=\"contentinfo\">",
+                  "nodeLabel": "Discover.\nAccessibility Statement\nBudget & Performance\nContracting\nEPA www Web …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-80-A",
+            "path": "1,HTML,1,BODY,4,DIV,4,FOOTER,0,DIV,1,DIV,0,DIV,1,UL,6,LI,0,A",
+            "selector": "div.footer__column > ul.menu > li.menu__item > a.menu__link",
+            "boundingRect": {
+              "top": 3202,
+              "bottom": 3223,
+              "left": 24,
+              "right": 267,
+              "width": 243,
+              "height": 21
+            },
+            "snippet": "<a href=\"/ocr/whistleblower-protections-epa-and-how-they-relate-non-disclosure-agre…\" class=\"menu__link\">",
+            "nodeLabel": "No FEAR Act Data",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.26 (foreground color: #dfe1e2, background color: #6495ed, font size: 13.2pt (17.6px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-234-FOOTER",
+                  "path": "1,HTML,1,BODY,4,DIV,4,FOOTER",
+                  "selector": "body#top > div.dialog-off-canvas-main-canvas > footer.footer",
+                  "boundingRect": {
+                    "top": 2783,
+                    "bottom": 4205,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 1422
+                  },
+                  "snippet": "<footer class=\"footer\" role=\"contentinfo\">",
+                  "nodeLabel": "Discover.\nAccessibility Statement\nBudget & Performance\nContracting\nEPA www Web …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-81-A",
+            "path": "1,HTML,1,BODY,4,DIV,4,FOOTER,0,DIV,1,DIV,0,DIV,1,UL,7,LI,0,A",
+            "selector": "div.footer__column > ul.menu > li.menu__item > a.menu__link",
+            "boundingRect": {
+              "top": 3239,
+              "bottom": 3260,
+              "left": 24,
+              "right": 267,
+              "width": 243,
+              "height": 21
+            },
+            "snippet": "<a href=\"/web-policies-and-procedures/plain-writing\" class=\"menu__link\">",
+            "nodeLabel": "Plain Writing",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.26 (foreground color: #dfe1e2, background color: #6495ed, font size: 13.2pt (17.6px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-234-FOOTER",
+                  "path": "1,HTML,1,BODY,4,DIV,4,FOOTER",
+                  "selector": "body#top > div.dialog-off-canvas-main-canvas > footer.footer",
+                  "boundingRect": {
+                    "top": 2783,
+                    "bottom": 4205,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 1422
+                  },
+                  "snippet": "<footer class=\"footer\" role=\"contentinfo\">",
+                  "nodeLabel": "Discover.\nAccessibility Statement\nBudget & Performance\nContracting\nEPA www Web …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-82-A",
+            "path": "1,HTML,1,BODY,4,DIV,4,FOOTER,0,DIV,1,DIV,0,DIV,1,UL,8,LI,0,A",
+            "selector": "div.footer__column > ul.menu > li.menu__item > a.menu__link",
+            "boundingRect": {
+              "top": 3276,
+              "bottom": 3297,
+              "left": 24,
+              "right": 267,
+              "width": 243,
+              "height": 21
+            },
+            "snippet": "<a href=\"/privacy\" class=\"menu__link\">",
+            "nodeLabel": "Privacy",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.26 (foreground color: #dfe1e2, background color: #6495ed, font size: 13.2pt (17.6px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-234-FOOTER",
+                  "path": "1,HTML,1,BODY,4,DIV,4,FOOTER",
+                  "selector": "body#top > div.dialog-off-canvas-main-canvas > footer.footer",
+                  "boundingRect": {
+                    "top": 2783,
+                    "bottom": 4205,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 1422
+                  },
+                  "snippet": "<footer class=\"footer\" role=\"contentinfo\">",
+                  "nodeLabel": "Discover.\nAccessibility Statement\nBudget & Performance\nContracting\nEPA www Web …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-83-A",
+            "path": "1,HTML,1,BODY,4,DIV,4,FOOTER,0,DIV,1,DIV,0,DIV,1,UL,9,LI,0,A",
+            "selector": "div.footer__column > ul.menu > li.menu__item > a.menu__link",
+            "boundingRect": {
+              "top": 3313,
+              "bottom": 3334,
+              "left": 24,
+              "right": 267,
+              "width": 243,
+              "height": 21
+            },
+            "snippet": "<a href=\"/privacy/privacy-and-security-notice\" class=\"menu__link\">",
+            "nodeLabel": "Privacy and Security Notice",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.26 (foreground color: #dfe1e2, background color: #6495ed, font size: 13.2pt (17.6px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-234-FOOTER",
+                  "path": "1,HTML,1,BODY,4,DIV,4,FOOTER",
+                  "selector": "body#top > div.dialog-off-canvas-main-canvas > footer.footer",
+                  "boundingRect": {
+                    "top": 2783,
+                    "bottom": 4205,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 1422
+                  },
+                  "snippet": "<footer class=\"footer\" role=\"contentinfo\">",
+                  "nodeLabel": "Discover.\nAccessibility Statement\nBudget & Performance\nContracting\nEPA www Web …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-235-H2",
+            "path": "1,HTML,1,BODY,4,DIV,4,FOOTER,0,DIV,1,DIV,1,DIV,0,H2",
+            "selector": "div.l-constrain > div.footer__content > div.footer__column > h2",
+            "boundingRect": {
+              "top": 3381,
+              "bottom": 3419,
+              "left": 24,
+              "right": 267,
+              "width": 243,
+              "height": 37
+            },
+            "snippet": "<h2>",
+            "nodeLabel": "Connect.",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.97 (foreground color: #ffffff, background color: #6495ed, font size: 23.4pt (31.2px), font weight: bold). Expected contrast ratio of 3:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-234-FOOTER",
+                  "path": "1,HTML,1,BODY,4,DIV,4,FOOTER",
+                  "selector": "body#top > div.dialog-off-canvas-main-canvas > footer.footer",
+                  "boundingRect": {
+                    "top": 2783,
+                    "bottom": 4205,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 1422
+                  },
+                  "snippet": "<footer class=\"footer\" role=\"contentinfo\">",
+                  "nodeLabel": "Discover.\nAccessibility Statement\nBudget & Performance\nContracting\nEPA www Web …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-84-A",
+            "path": "1,HTML,1,BODY,4,DIV,4,FOOTER,0,DIV,1,DIV,1,DIV,1,UL,0,LI,0,A",
+            "selector": "div.footer__column > ul.menu > li.menu__item > a.menu__link",
+            "boundingRect": {
+              "top": 3435,
+              "bottom": 3456,
+              "left": 24,
+              "right": 267,
+              "width": 243,
+              "height": 21
+            },
+            "snippet": "<a href=\"https://www.data.gov/\" class=\"menu__link\" data-once=\"external-links protected-links\">",
+            "nodeLabel": "Data.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.26 (foreground color: #dfe1e2, background color: #6495ed, font size: 13.2pt (17.6px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-234-FOOTER",
+                  "path": "1,HTML,1,BODY,4,DIV,4,FOOTER",
+                  "selector": "body#top > div.dialog-off-canvas-main-canvas > footer.footer",
+                  "boundingRect": {
+                    "top": 2783,
+                    "bottom": 4205,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 1422
+                  },
+                  "snippet": "<footer class=\"footer\" role=\"contentinfo\">",
+                  "nodeLabel": "Discover.\nAccessibility Statement\nBudget & Performance\nContracting\nEPA www Web …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-85-A",
+            "path": "1,HTML,1,BODY,4,DIV,4,FOOTER,0,DIV,1,DIV,1,DIV,1,UL,1,LI,0,A",
+            "selector": "div.footer__column > ul.menu > li.menu__item > a.menu__link",
+            "boundingRect": {
+              "top": 3472,
+              "bottom": 3493,
+              "left": 24,
+              "right": 267,
+              "width": 243,
+              "height": 21
+            },
+            "snippet": "<a href=\"/office-inspector-general/about-epas-office-inspector-general\" class=\"menu__link\">",
+            "nodeLabel": "Inspector General",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.26 (foreground color: #dfe1e2, background color: #6495ed, font size: 13.2pt (17.6px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-234-FOOTER",
+                  "path": "1,HTML,1,BODY,4,DIV,4,FOOTER",
+                  "selector": "body#top > div.dialog-off-canvas-main-canvas > footer.footer",
+                  "boundingRect": {
+                    "top": 2783,
+                    "bottom": 4205,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 1422
+                  },
+                  "snippet": "<footer class=\"footer\" role=\"contentinfo\">",
+                  "nodeLabel": "Discover.\nAccessibility Statement\nBudget & Performance\nContracting\nEPA www Web …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-86-A",
+            "path": "1,HTML,1,BODY,4,DIV,4,FOOTER,0,DIV,1,DIV,1,DIV,1,UL,2,LI,0,A",
+            "selector": "div.footer__column > ul.menu > li.menu__item > a.menu__link",
+            "boundingRect": {
+              "top": 3509,
+              "bottom": 3530,
+              "left": 24,
+              "right": 267,
+              "width": 243,
+              "height": 21
+            },
+            "snippet": "<a href=\"/careers\" class=\"menu__link\">",
+            "nodeLabel": "Jobs",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.26 (foreground color: #dfe1e2, background color: #6495ed, font size: 13.2pt (17.6px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-234-FOOTER",
+                  "path": "1,HTML,1,BODY,4,DIV,4,FOOTER",
+                  "selector": "body#top > div.dialog-off-canvas-main-canvas > footer.footer",
+                  "boundingRect": {
+                    "top": 2783,
+                    "bottom": 4205,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 1422
+                  },
+                  "snippet": "<footer class=\"footer\" role=\"contentinfo\">",
+                  "nodeLabel": "Discover.\nAccessibility Statement\nBudget & Performance\nContracting\nEPA www Web …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-87-A",
+            "path": "1,HTML,1,BODY,4,DIV,4,FOOTER,0,DIV,1,DIV,1,DIV,1,UL,3,LI,0,A",
+            "selector": "div.footer__column > ul.menu > li.menu__item > a.menu__link",
+            "boundingRect": {
+              "top": 3546,
+              "bottom": 3567,
+              "left": 24,
+              "right": 267,
+              "width": 243,
+              "height": 21
+            },
+            "snippet": "<a href=\"/newsroom\" class=\"menu__link\">",
+            "nodeLabel": "Newsroom",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.26 (foreground color: #dfe1e2, background color: #6495ed, font size: 13.2pt (17.6px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-234-FOOTER",
+                  "path": "1,HTML,1,BODY,4,DIV,4,FOOTER",
+                  "selector": "body#top > div.dialog-off-canvas-main-canvas > footer.footer",
+                  "boundingRect": {
+                    "top": 2783,
+                    "bottom": 4205,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 1422
+                  },
+                  "snippet": "<footer class=\"footer\" role=\"contentinfo\">",
+                  "nodeLabel": "Discover.\nAccessibility Statement\nBudget & Performance\nContracting\nEPA www Web …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-88-A",
+            "path": "1,HTML,1,BODY,4,DIV,4,FOOTER,0,DIV,1,DIV,1,DIV,1,UL,4,LI,0,A",
+            "selector": "div.footer__column > ul.menu > li.menu__item > a.menu__link",
+            "boundingRect": {
+              "top": 3583,
+              "bottom": 3604,
+              "left": 24,
+              "right": 267,
+              "width": 243,
+              "height": 21
+            },
+            "snippet": "<a href=\"/data\" class=\"menu__link\">",
+            "nodeLabel": "Open Government",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.26 (foreground color: #dfe1e2, background color: #6495ed, font size: 13.2pt (17.6px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-234-FOOTER",
+                  "path": "1,HTML,1,BODY,4,DIV,4,FOOTER",
+                  "selector": "body#top > div.dialog-off-canvas-main-canvas > footer.footer",
+                  "boundingRect": {
+                    "top": 2783,
+                    "bottom": 4205,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 1422
+                  },
+                  "snippet": "<footer class=\"footer\" role=\"contentinfo\">",
+                  "nodeLabel": "Discover.\nAccessibility Statement\nBudget & Performance\nContracting\nEPA www Web …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-89-A",
+            "path": "1,HTML,1,BODY,4,DIV,4,FOOTER,0,DIV,1,DIV,1,DIV,1,UL,5,LI,0,A",
+            "selector": "div.footer__column > ul.menu > li.menu__item > a.menu__link",
+            "boundingRect": {
+              "top": 3620,
+              "bottom": 3641,
+              "left": 24,
+              "right": 267,
+              "width": 243,
+              "height": 21
+            },
+            "snippet": "<a href=\"https://www.regulations.gov/\" class=\"menu__link\" data-once=\"external-links protected-links\">",
+            "nodeLabel": "Regulations.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.26 (foreground color: #dfe1e2, background color: #6495ed, font size: 13.2pt (17.6px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-234-FOOTER",
+                  "path": "1,HTML,1,BODY,4,DIV,4,FOOTER",
+                  "selector": "body#top > div.dialog-off-canvas-main-canvas > footer.footer",
+                  "boundingRect": {
+                    "top": 2783,
+                    "bottom": 4205,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 1422
+                  },
+                  "snippet": "<footer class=\"footer\" role=\"contentinfo\">",
+                  "nodeLabel": "Discover.\nAccessibility Statement\nBudget & Performance\nContracting\nEPA www Web …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-90-A",
+            "path": "1,HTML,1,BODY,4,DIV,4,FOOTER,0,DIV,1,DIV,1,DIV,1,UL,6,LI,0,A",
+            "selector": "div.footer__column > ul.menu > li.menu__item > a.menu__link",
+            "boundingRect": {
+              "top": 3657,
+              "bottom": 3678,
+              "left": 24,
+              "right": 267,
+              "width": 243,
+              "height": 21
+            },
+            "snippet": "<a href=\"/newsroom/email-subscriptions-epa-news-releases\" class=\"menu__link\">",
+            "nodeLabel": "Subscribe",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.26 (foreground color: #dfe1e2, background color: #6495ed, font size: 13.2pt (17.6px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-234-FOOTER",
+                  "path": "1,HTML,1,BODY,4,DIV,4,FOOTER",
+                  "selector": "body#top > div.dialog-off-canvas-main-canvas > footer.footer",
+                  "boundingRect": {
+                    "top": 2783,
+                    "bottom": 4205,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 1422
+                  },
+                  "snippet": "<footer class=\"footer\" role=\"contentinfo\">",
+                  "nodeLabel": "Discover.\nAccessibility Statement\nBudget & Performance\nContracting\nEPA www Web …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-91-A",
+            "path": "1,HTML,1,BODY,4,DIV,4,FOOTER,0,DIV,1,DIV,1,DIV,1,UL,7,LI,0,A",
+            "selector": "div.footer__column > ul.menu > li.menu__item > a.menu__link",
+            "boundingRect": {
+              "top": 3694,
+              "bottom": 3715,
+              "left": 24,
+              "right": 267,
+              "width": 243,
+              "height": 21
+            },
+            "snippet": "<a href=\"https://www.usa.gov/\" class=\"menu__link\" data-once=\"external-links protected-links\">",
+            "nodeLabel": "USA.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.26 (foreground color: #dfe1e2, background color: #6495ed, font size: 13.2pt (17.6px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-234-FOOTER",
+                  "path": "1,HTML,1,BODY,4,DIV,4,FOOTER",
+                  "selector": "body#top > div.dialog-off-canvas-main-canvas > footer.footer",
+                  "boundingRect": {
+                    "top": 2783,
+                    "bottom": 4205,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 1422
+                  },
+                  "snippet": "<footer class=\"footer\" role=\"contentinfo\">",
+                  "nodeLabel": "Discover.\nAccessibility Statement\nBudget & Performance\nContracting\nEPA www Web …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-236-H2",
+            "path": "1,HTML,1,BODY,4,DIV,4,FOOTER,0,DIV,1,DIV,2,DIV,0,H2",
+            "selector": "div.l-constrain > div.footer__content > div.footer__column > h2",
+            "boundingRect": {
+              "top": 3799,
+              "bottom": 3837,
+              "left": 24,
+              "right": 267,
+              "width": 243,
+              "height": 37
+            },
+            "snippet": "<h2>",
+            "nodeLabel": "Ask.",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.97 (foreground color: #ffffff, background color: #6495ed, font size: 23.4pt (31.2px), font weight: bold). Expected contrast ratio of 3:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-234-FOOTER",
+                  "path": "1,HTML,1,BODY,4,DIV,4,FOOTER",
+                  "selector": "body#top > div.dialog-off-canvas-main-canvas > footer.footer",
+                  "boundingRect": {
+                    "top": 2783,
+                    "bottom": 4205,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 1422
+                  },
+                  "snippet": "<footer class=\"footer\" role=\"contentinfo\">",
+                  "nodeLabel": "Discover.\nAccessibility Statement\nBudget & Performance\nContracting\nEPA www Web …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-93-A",
+            "path": "1,HTML,1,BODY,4,DIV,4,FOOTER,0,DIV,1,DIV,2,DIV,1,UL,0,LI,0,A",
+            "selector": "div.footer__column > ul.menu > li.menu__item > a.menu__link",
+            "boundingRect": {
+              "top": 3853,
+              "bottom": 3874,
+              "left": 24,
+              "right": 267,
+              "width": 243,
+              "height": 21
+            },
+            "snippet": "<a href=\"/home/forms/contact-epa\" class=\"menu__link\">",
+            "nodeLabel": "Contact EPA",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.26 (foreground color: #dfe1e2, background color: #6495ed, font size: 13.2pt (17.6px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-234-FOOTER",
+                  "path": "1,HTML,1,BODY,4,DIV,4,FOOTER",
+                  "selector": "body#top > div.dialog-off-canvas-main-canvas > footer.footer",
+                  "boundingRect": {
+                    "top": 2783,
+                    "bottom": 4205,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 1422
+                  },
+                  "snippet": "<footer class=\"footer\" role=\"contentinfo\">",
+                  "nodeLabel": "Discover.\nAccessibility Statement\nBudget & Performance\nContracting\nEPA www Web …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-94-A",
+            "path": "1,HTML,1,BODY,4,DIV,4,FOOTER,0,DIV,1,DIV,2,DIV,1,UL,1,LI,0,A",
+            "selector": "div.footer__column > ul.menu > li.menu__item > a.menu__link",
+            "boundingRect": {
+              "top": 3890,
+              "bottom": 3911,
+              "left": 24,
+              "right": 267,
+              "width": 243,
+              "height": 21
+            },
+            "snippet": "<a href=\"/web-policies-and-procedures/epa-disclaimers\" class=\"menu__link\">",
+            "nodeLabel": "EPA Disclaimers",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.26 (foreground color: #dfe1e2, background color: #6495ed, font size: 13.2pt (17.6px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-234-FOOTER",
+                  "path": "1,HTML,1,BODY,4,DIV,4,FOOTER",
+                  "selector": "body#top > div.dialog-off-canvas-main-canvas > footer.footer",
+                  "boundingRect": {
+                    "top": 2783,
+                    "bottom": 4205,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 1422
+                  },
+                  "snippet": "<footer class=\"footer\" role=\"contentinfo\">",
+                  "nodeLabel": "Discover.\nAccessibility Statement\nBudget & Performance\nContracting\nEPA www Web …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-95-A",
+            "path": "1,HTML,1,BODY,4,DIV,4,FOOTER,0,DIV,1,DIV,2,DIV,1,UL,2,LI,0,A",
+            "selector": "div.footer__column > ul.menu > li.menu__item > a.menu__link",
+            "boundingRect": {
+              "top": 3927,
+              "bottom": 3948,
+              "left": 24,
+              "right": 267,
+              "width": 243,
+              "height": 21
+            },
+            "snippet": "<a href=\"/aboutepa/epa-hotlines\" class=\"menu__link\">",
+            "nodeLabel": "Hotlines",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.26 (foreground color: #dfe1e2, background color: #6495ed, font size: 13.2pt (17.6px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-234-FOOTER",
+                  "path": "1,HTML,1,BODY,4,DIV,4,FOOTER",
+                  "selector": "body#top > div.dialog-off-canvas-main-canvas > footer.footer",
+                  "boundingRect": {
+                    "top": 2783,
+                    "bottom": 4205,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 1422
+                  },
+                  "snippet": "<footer class=\"footer\" role=\"contentinfo\">",
+                  "nodeLabel": "Discover.\nAccessibility Statement\nBudget & Performance\nContracting\nEPA www Web …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-96-A",
+            "path": "1,HTML,1,BODY,4,DIV,4,FOOTER,0,DIV,1,DIV,2,DIV,1,UL,3,LI,0,A",
+            "selector": "div.footer__column > ul.menu > li.menu__item > a.menu__link",
+            "boundingRect": {
+              "top": 3964,
+              "bottom": 3985,
+              "left": 24,
+              "right": 267,
+              "width": 243,
+              "height": 21
+            },
+            "snippet": "<a href=\"/foia\" class=\"menu__link\">",
+            "nodeLabel": "FOIA Requests",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.26 (foreground color: #dfe1e2, background color: #6495ed, font size: 13.2pt (17.6px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-234-FOOTER",
+                  "path": "1,HTML,1,BODY,4,DIV,4,FOOTER",
+                  "selector": "body#top > div.dialog-off-canvas-main-canvas > footer.footer",
+                  "boundingRect": {
+                    "top": 2783,
+                    "bottom": 4205,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 1422
+                  },
+                  "snippet": "<footer class=\"footer\" role=\"contentinfo\">",
+                  "nodeLabel": "Discover.\nAccessibility Statement\nBudget & Performance\nContracting\nEPA www Web …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-97-A",
+            "path": "1,HTML,1,BODY,4,DIV,4,FOOTER,0,DIV,1,DIV,2,DIV,1,UL,4,LI,0,A",
+            "selector": "div.footer__column > ul.menu > li.menu__item > a.menu__link",
+            "boundingRect": {
+              "top": 4001,
+              "bottom": 4022,
+              "left": 24,
+              "right": 267,
+              "width": 243,
+              "height": 21
+            },
+            "snippet": "<a href=\"/home/frequent-questions-specific-epa-programstopics\" class=\"menu__link\">",
+            "nodeLabel": "Frequent Questions",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.26 (foreground color: #dfe1e2, background color: #6495ed, font size: 13.2pt (17.6px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-234-FOOTER",
+                  "path": "1,HTML,1,BODY,4,DIV,4,FOOTER",
+                  "selector": "body#top > div.dialog-off-canvas-main-canvas > footer.footer",
+                  "boundingRect": {
+                    "top": 2783,
+                    "bottom": 4205,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 1422
+                  },
+                  "snippet": "<footer class=\"footer\" role=\"contentinfo\">",
+                  "nodeLabel": "Discover.\nAccessibility Statement\nBudget & Performance\nContracting\nEPA www Web …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-237-H2",
+            "path": "1,HTML,1,BODY,4,DIV,4,FOOTER,0,DIV,1,DIV,2,DIV,2,H2",
+            "selector": "div.l-constrain > div.footer__content > div.footer__column > h2",
+            "boundingRect": {
+              "top": 4054,
+              "bottom": 4091,
+              "left": 24,
+              "right": 267,
+              "width": 243,
+              "height": 37
+            },
+            "snippet": "<h2>",
+            "nodeLabel": "Follow.",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.97 (foreground color: #ffffff, background color: #6495ed, font size: 23.4pt (31.2px), font weight: bold). Expected contrast ratio of 3:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-234-FOOTER",
+                  "path": "1,HTML,1,BODY,4,DIV,4,FOOTER",
+                  "selector": "body#top > div.dialog-off-canvas-main-canvas > footer.footer",
+                  "boundingRect": {
+                    "top": 2783,
+                    "bottom": 4205,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 1422
+                  },
+                  "snippet": "<footer class=\"footer\" role=\"contentinfo\">",
+                  "nodeLabel": "Discover.\nAccessibility Statement\nBudget & Performance\nContracting\nEPA www Web …"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 26
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-238-H4",
+            "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,2,DIV,0,DIV,1,H4",
+            "selector": "article.article > div > div > h4",
+            "boundingRect": {
+              "top": 676,
+              "bottom": 695,
+              "left": 24,
+              "right": 388,
+              "width": 364,
+              "height": 19
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "National Trends",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

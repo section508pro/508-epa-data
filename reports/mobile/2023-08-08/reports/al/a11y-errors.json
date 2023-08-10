@@ -1,0 +1,162 @@
+[
+  {
+    "id": "aria-hidden-focus",
+    "title": "`[aria-hidden=\"true\"]` elements contain focusable descendents",
+    "description": "Focusable descendents within an `[aria-hidden=\"true\"]` element prevent those interactive elements from being available to users of assistive technologies like screen readers. [Learn more](https://web.dev/aria-hidden-focus/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-238-LI",
+            "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,0,LI",
+            "selector": "div#tns1-ow > div#tns1-iw > ul#tns1 > li#tns1-item0",
+            "boundingRect": {
+              "top": 317,
+              "bottom": 1028,
+              "left": -412,
+              "right": 0,
+              "width": 412,
+              "height": 711
+            },
+            "snippet": "<li class=\"hero-slideshow__item tns-item tns-normal\" id=\"tns1-item0\" style=\"\" aria-hidden=\"true\" tabindex=\"-1\">",
+            "nodeLabel": "Biden-Harris Administration Announces $4,179,495 Through Investing in America A…",
+            "explanation": "Fix all of the following:\n  Focusable content should have tabindex='-1' or be removed from the DOM"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-42-A",
+                  "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,0,LI,0,SECTION,0,DIV,0,DIV,1,P,1,A",
+                  "selector": "div.grid-container > div.usa-hero__callout > p > a",
+                  "boundingRect": {
+                    "top": 850,
+                    "bottom": 871,
+                    "left": -188,
+                    "right": -65,
+                    "width": 123,
+                    "height": 21
+                  },
+                  "snippet": "<a href=\"/newsreleases/biden-harris-administration-announces-4179495-through-invest…\">",
+                  "nodeLabel": "More information"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-239-LI",
+            "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,2,LI",
+            "selector": "div#tns1-ow > div#tns1-iw > ul#tns1 > li#tns1-item2",
+            "boundingRect": {
+              "top": 317,
+              "bottom": 1028,
+              "left": -412,
+              "right": 0,
+              "width": 412,
+              "height": 711
+            },
+            "snippet": "<li class=\"hero-slideshow__item tns-item tns-normal\" id=\"tns1-item2\" aria-hidden=\"true\" tabindex=\"-1\">",
+            "nodeLabel": "Biden-Harris Administration Announces $6.5 Billion for Drinking Water Infrastru…",
+            "explanation": "Fix all of the following:\n  Focusable content should have tabindex='-1' or be removed from the DOM"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-44-A",
+                  "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,2,LI,0,SECTION,0,DIV,0,DIV,1,P,1,A",
+                  "selector": "div.grid-container > div.usa-hero__callout > p > a",
+                  "boundingRect": {
+                    "top": 737,
+                    "bottom": 758,
+                    "left": -188,
+                    "right": -65,
+                    "width": 123,
+                    "height": 21
+                  },
+                  "snippet": "<a href=\"/newsreleases/biden-harris-administration-announces-65-billion-drinking-wa…\">",
+                  "nodeLabel": "More information"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-240-LI",
+            "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,3,LI",
+            "selector": "div#tns1-ow > div#tns1-iw > ul#tns1 > li.hero-slideshow__item",
+            "boundingRect": {
+              "top": 317,
+              "bottom": 1028,
+              "left": -412,
+              "right": 0,
+              "width": 412,
+              "height": 711
+            },
+            "snippet": "<li class=\"hero-slideshow__item tns-item tns-normal tns-slide-cloned\" aria-hidden=\"true\" tabindex=\"-1\">",
+            "nodeLabel": "Biden-Harris Administration Announces $4,179,495 Through Investing in America A…",
+            "explanation": "Fix all of the following:\n  Focusable content should have tabindex='-1' or be removed from the DOM"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-45-A",
+                  "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,3,LI,0,SECTION,0,DIV,0,DIV,1,P,1,A",
+                  "selector": "div.grid-container > div.usa-hero__callout > p > a",
+                  "boundingRect": {
+                    "top": 850,
+                    "bottom": 871,
+                    "left": -188,
+                    "right": -65,
+                    "width": 123,
+                    "height": 21
+                  },
+                  "snippet": "<a href=\"/newsreleases/biden-harris-administration-announces-4179495-through-invest…\">",
+                  "nodeLabel": "More information"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 3
+  }
+]

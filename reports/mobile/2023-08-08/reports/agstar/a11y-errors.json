@@ -1,0 +1,294 @@
+[
+  {
+    "id": "aria-hidden-focus",
+    "title": "`[aria-hidden=\"true\"]` elements contain focusable descendents",
+    "description": "Focusable descendents within an `[aria-hidden=\"true\"]` element prevent those interactive elements from being available to users of assistive technologies like screen readers. [Learn more](https://web.dev/aria-hidden-focus/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-262-LI",
+            "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,0,LI",
+            "selector": "div#tns1-ow > div#tns1-iw > ul#tns1 > li#tns1-item0",
+            "boundingRect": {
+              "top": 411,
+              "bottom": 894,
+              "left": -412,
+              "right": 0,
+              "width": 412,
+              "height": 483
+            },
+            "snippet": "<li class=\"hero-slideshow__item tns-item tns-normal\" id=\"tns1-item0\" style=\"\" aria-hidden=\"true\" tabindex=\"-1\">",
+            "nodeLabel": "New AgSTAR Resources\nPractices to Reduce Methane Emissions from Livestock Manur…",
+            "explanation": "Fix all of the following:\n  Focusable content should have tabindex='-1' or be removed from the DOM"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-42-A",
+                  "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,0,LI,0,SECTION,0,DIV,0,DIV,1,UL,0,LI,0,A",
+                  "selector": "div.usa-hero__callout > ul > li > a",
+                  "boundingRect": {
+                    "top": 569,
+                    "bottom": 641,
+                    "left": -331,
+                    "right": -96,
+                    "width": 235,
+                    "height": 72
+                  },
+                  "snippet": "<a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"43a95cc9-c252-498e-bf37-c197d50f5240\" href=\"/agstar/practices-reduce-methane-emissions-livestock-manure-management\">",
+                  "nodeLabel": "Practices to Reduce Methane Emissions from Livestock Manure Management"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-43-A",
+                  "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,0,LI,0,SECTION,0,DIV,0,DIV,1,UL,1,LI,0,A",
+                  "selector": "div.usa-hero__callout > ul > li > a",
+                  "boundingRect": {
+                    "top": 645,
+                    "bottom": 666,
+                    "left": -331,
+                    "right": -74,
+                    "width": 257,
+                    "height": 21
+                  },
+                  "snippet": "<a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"026ca541-7ba2-4b1c-ad15-f790ba325a0f\" href=\"/agstar/anaerobic-digestion-swine-farms\">",
+                  "nodeLabel": "Anaerobic Digestion on Swine Farms"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-44-A",
+                  "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,0,LI,0,SECTION,0,DIV,0,DIV,1,UL,2,LI,0,A",
+                  "selector": "div.usa-hero__callout > ul > li > a",
+                  "boundingRect": {
+                    "top": 671,
+                    "bottom": 692,
+                    "left": -331,
+                    "right": -80,
+                    "width": 251,
+                    "height": 21
+                  },
+                  "snippet": "<a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"3c9a41da-452d-4b1d-aa49-c55d3816ee0e\" href=\"/agstar/anaerobic-digestion-dairy-farms\">",
+                  "nodeLabel": "Anaerobic Digestion on Dairy Farms"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-263-LI",
+            "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,1,LI",
+            "selector": "div#tns1-ow > div#tns1-iw > ul#tns1 > li#tns1-item1",
+            "boundingRect": {
+              "top": 411,
+              "bottom": 894,
+              "left": -412,
+              "right": 0,
+              "width": 412,
+              "height": 483
+            },
+            "snippet": "<li class=\"hero-slideshow__item tns-item tns-normal\" id=\"tns1-item1\" aria-hidden=\"true\" tabindex=\"-1\" style=\"\">",
+            "nodeLabel": "Project Development Handbook & Operator Guidebook\n\nView the Project Development…",
+            "explanation": "Fix all of the following:\n  Focusable content should have tabindex='-1' or be removed from the DOM"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-46-A",
+                  "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,1,LI,0,SECTION,0,DIV,0,DIV,1,P,1,A",
+                  "selector": "div.grid-container > div.usa-hero__callout > p > a",
+                  "boundingRect": {
+                    "top": 681,
+                    "bottom": 702,
+                    "left": -292,
+                    "right": -65,
+                    "width": 227,
+                    "height": 21
+                  },
+                  "snippet": "<a href=\"/agstar/agstar-project-development-handbook\">",
+                  "nodeLabel": "Project Development Handbook"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-47-A",
+                  "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,1,LI,0,SECTION,0,DIV,0,DIV,1,P,3,A",
+                  "selector": "div.grid-container > div.usa-hero__callout > p > a",
+                  "boundingRect": {
+                    "top": 707,
+                    "bottom": 753,
+                    "left": -356,
+                    "right": -104,
+                    "width": 252,
+                    "height": 46
+                  },
+                  "snippet": "<a href=\"/agstar/anaerobic-digesterbiogas-system-operator-guidebook\">",
+                  "nodeLabel": "AD/Biogas System Operator Guidebook"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-264-LI",
+            "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,3,LI",
+            "selector": "div#tns1-ow > div#tns1-iw > ul#tns1 > li#tns1-item3",
+            "boundingRect": {
+              "top": 411,
+              "bottom": 894,
+              "left": -412,
+              "right": 0,
+              "width": 412,
+              "height": 483
+            },
+            "snippet": "<li class=\"hero-slideshow__item tns-item tns-normal\" id=\"tns1-item3\" aria-hidden=\"true\" tabindex=\"-1\">",
+            "nodeLabel": "Livestock AD Database\n\nCheck out the latest version of the Livestock Anaerobic …",
+            "explanation": "Fix all of the following:\n  Focusable content should have tabindex='-1' or be removed from the DOM"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-49-A",
+                  "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,3,LI,0,SECTION,0,DIV,0,DIV,1,P,1,A",
+                  "selector": "div.grid-container > div.usa-hero__callout > p > a",
+                  "boundingRect": {
+                    "top": 594,
+                    "bottom": 641,
+                    "left": -356,
+                    "right": -84,
+                    "width": 272,
+                    "height": 46
+                  },
+                  "snippet": "<a href=\"/agstar/livestock-anaerobic-digester-database\">",
+                  "nodeLabel": "Livestock Anaerobic Digester Database (January 2023)"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-265-LI",
+            "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,4,LI",
+            "selector": "div#tns1-ow > div#tns1-iw > ul#tns1 > li.hero-slideshow__item",
+            "boundingRect": {
+              "top": 411,
+              "bottom": 894,
+              "left": -412,
+              "right": 0,
+              "width": 412,
+              "height": 483
+            },
+            "snippet": "<li class=\"hero-slideshow__item tns-item tns-normal tns-slide-cloned\" aria-hidden=\"true\" tabindex=\"-1\">",
+            "nodeLabel": "New AgSTAR Resources\nPractices to Reduce Methane Emissions from Livestock Manur…",
+            "explanation": "Fix all of the following:\n  Focusable content should have tabindex='-1' or be removed from the DOM"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-50-A",
+                  "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,4,LI,0,SECTION,0,DIV,0,DIV,1,UL,0,LI,0,A",
+                  "selector": "div.usa-hero__callout > ul > li > a",
+                  "boundingRect": {
+                    "top": 569,
+                    "bottom": 641,
+                    "left": -331,
+                    "right": -96,
+                    "width": 235,
+                    "height": 72
+                  },
+                  "snippet": "<a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"43a95cc9-c252-498e-bf37-c197d50f5240\" href=\"/agstar/practices-reduce-methane-emissions-livestock-manure-management\">",
+                  "nodeLabel": "Practices to Reduce Methane Emissions from Livestock Manure Management"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-51-A",
+                  "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,4,LI,0,SECTION,0,DIV,0,DIV,1,UL,1,LI,0,A",
+                  "selector": "div.usa-hero__callout > ul > li > a",
+                  "boundingRect": {
+                    "top": 645,
+                    "bottom": 666,
+                    "left": -331,
+                    "right": -74,
+                    "width": 257,
+                    "height": 21
+                  },
+                  "snippet": "<a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"026ca541-7ba2-4b1c-ad15-f790ba325a0f\" href=\"/agstar/anaerobic-digestion-swine-farms\">",
+                  "nodeLabel": "Anaerobic Digestion on Swine Farms"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-52-A",
+                  "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,4,LI,0,SECTION,0,DIV,0,DIV,1,UL,2,LI,0,A",
+                  "selector": "div.usa-hero__callout > ul > li > a",
+                  "boundingRect": {
+                    "top": 671,
+                    "bottom": 692,
+                    "left": -331,
+                    "right": -80,
+                    "width": 251,
+                    "height": 21
+                  },
+                  "snippet": "<a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"3c9a41da-452d-4b1d-aa49-c55d3816ee0e\" href=\"/agstar/anaerobic-digestion-dairy-farms\">",
+                  "nodeLabel": "Anaerobic Digestion on Dairy Farms"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 4
+  }
+]

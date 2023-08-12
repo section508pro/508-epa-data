@@ -1,0 +1,234 @@
+[
+  {
+    "id": "aria-hidden-focus",
+    "title": "`[aria-hidden=\"true\"]` elements contain focusable descendents",
+    "description": "Focusable descendents within an `[aria-hidden=\"true\"]` element prevent those interactive elements from being available to users of assistive technologies like screen readers. [Learn more](https://web.dev/aria-hidden-focus/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-256-LI",
+            "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,0,LI",
+            "selector": "div#tns1-ow > div#tns1-iw > ul#tns1 > li#tns1-item0",
+            "boundingRect": {
+              "top": 294,
+              "bottom": 656,
+              "left": -1350,
+              "right": 0,
+              "width": 1350,
+              "height": 362
+            },
+            "snippet": "<li class=\"hero-slideshow__item tns-item tns-normal\" id=\"tns1-item0\" style=\"\" aria-hidden=\"true\" tabindex=\"-1\">",
+            "nodeLabel": "EPA headquarters, Washington, D.C.\nHQ Offices\nHQ mailing addresses\nVisiting HQ",
+            "explanation": "Fix all of the following:\n  Focusable content should have tabindex='-1' or be removed from the DOM"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-42-A",
+                  "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,0,LI,0,SECTION,0,DIV,0,DIV,1,UL,0,LI,0,A",
+                  "selector": "div.usa-hero__callout > ul > li > a",
+                  "boundingRect": {
+                    "top": 451,
+                    "bottom": 473,
+                    "left": -539,
+                    "right": -464,
+                    "width": 75,
+                    "height": 22
+                  },
+                  "snippet": "<a href=\"/aboutepa/epa-organization-chart\">",
+                  "nodeLabel": "HQ Offices"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-43-A",
+                  "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,0,LI,0,SECTION,0,DIV,0,DIV,1,UL,1,LI,0,A",
+                  "selector": "div.usa-hero__callout > ul > li > a",
+                  "boundingRect": {
+                    "top": 477,
+                    "bottom": 499,
+                    "left": -539,
+                    "right": -384,
+                    "width": 155,
+                    "height": 22
+                  },
+                  "snippet": "<a href=\"/aboutepa/mailing-addresses-and-phone-numbers#HQ\">",
+                  "nodeLabel": "HQ mailing addresses"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-44-A",
+                  "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,0,LI,0,SECTION,0,DIV,0,DIV,1,UL,2,LI,0,A",
+                  "selector": "div.usa-hero__callout > ul > li > a",
+                  "boundingRect": {
+                    "top": 502,
+                    "bottom": 524,
+                    "left": -539,
+                    "right": -460,
+                    "width": 79,
+                    "height": 22
+                  },
+                  "snippet": "<a href=\"/aboutepa/visiting-epa-headquarters\">",
+                  "nodeLabel": "Visiting HQ"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-257-LI",
+            "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,1,LI",
+            "selector": "div#tns1-ow > div#tns1-iw > ul#tns1 > li#tns1-item1",
+            "boundingRect": {
+              "top": 294,
+              "bottom": 656,
+              "left": -1350,
+              "right": 0,
+              "width": 1350,
+              "height": 362
+            },
+            "snippet": "<li class=\"hero-slideshow__item tns-item tns-normal\" id=\"tns1-item1\" style=\"\" aria-hidden=\"true\" tabindex=\"-1\">",
+            "nodeLabel": "Regional offices around the nation\n\nAtrium sails in EPA's Region 8 office in De…",
+            "explanation": "Fix all of the following:\n  Focusable content should have tabindex='-1' or be removed from the DOM"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-45-A",
+                  "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,1,LI,0,SECTION,0,DIV,0,DIV,2,UL,0,LI,0,A",
+                  "selector": "div.usa-hero__callout > ul > li > a",
+                  "boundingRect": {
+                    "top": 518,
+                    "bottom": 540,
+                    "left": -539,
+                    "right": -424,
+                    "width": 115,
+                    "height": 22
+                  },
+                  "snippet": "<a href=\"/aboutepa/epa-organization-chart#regional\">",
+                  "nodeLabel": "Regional Offices"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-46-A",
+                  "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,1,LI,0,SECTION,0,DIV,0,DIV,2,UL,1,LI,0,A",
+                  "selector": "div.usa-hero__callout > ul > li > a",
+                  "boundingRect": {
+                    "top": 543,
+                    "bottom": 565,
+                    "left": -539,
+                    "right": -379,
+                    "width": 160,
+                    "height": 22
+                  },
+                  "snippet": "<a href=\"/greeningepa\">",
+                  "nodeLabel": "Greening EPA facilities"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-258-LI",
+            "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,3,LI",
+            "selector": "div#tns1-ow > div#tns1-iw > ul#tns1 > li.hero-slideshow__item",
+            "boundingRect": {
+              "top": 294,
+              "bottom": 656,
+              "left": -1350,
+              "right": 0,
+              "width": 1350,
+              "height": 362
+            },
+            "snippet": "<li class=\"hero-slideshow__item tns-item tns-normal tns-slide-cloned\" aria-hidden=\"true\" tabindex=\"-1\">",
+            "nodeLabel": "Regional offices around the nation\n\nAtrium sails in EPA's Region 8 office in De…",
+            "explanation": "Fix all of the following:\n  Focusable content should have tabindex='-1' or be removed from the DOM"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-50-A",
+                  "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,3,LI,0,SECTION,0,DIV,0,DIV,2,UL,0,LI,0,A",
+                  "selector": "div.usa-hero__callout > ul > li > a",
+                  "boundingRect": {
+                    "top": 518,
+                    "bottom": 540,
+                    "left": -539,
+                    "right": -424,
+                    "width": 115,
+                    "height": 22
+                  },
+                  "snippet": "<a href=\"/aboutepa/epa-organization-chart#regional\">",
+                  "nodeLabel": "Regional Offices"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-51-A",
+                  "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,3,LI,0,SECTION,0,DIV,0,DIV,2,UL,1,LI,0,A",
+                  "selector": "div.usa-hero__callout > ul > li > a",
+                  "boundingRect": {
+                    "top": 543,
+                    "bottom": 565,
+                    "left": -539,
+                    "right": -379,
+                    "width": 160,
+                    "height": 22
+                  },
+                  "snippet": "<a href=\"/greeningepa\">",
+                  "nodeLabel": "Greening EPA facilities"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 3
+  }
+]

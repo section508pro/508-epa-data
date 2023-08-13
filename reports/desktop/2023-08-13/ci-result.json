@@ -1,0 +1,1538 @@
+[
+  {
+    "path": "/",
+    "score": 0.9,
+    "performance": 0.71,
+    "accessibility": 0.98,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/30climate",
+    "score": 0.83,
+    "performance": 0.48,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 1
+  },
+  {
+    "path": "/30climate/about-celebration",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/30climate/citations-and-references",
+    "score": 0.96,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/30climate/driving-investment-and-economic-growth",
+    "score": 0.97,
+    "performance": 0.96,
+    "accessibility": 0.99,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/30climate/enabling-full-policy-portfolio",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/30climate/forms/contact-us-about-30-years-climate-partnership",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/30climate/meet-programs",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/30climate/message-administrator",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/30climate/power-partnership-celebrating-30-years-climate-partnership-programs-epa",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/30climate/role-partnership-programs",
+    "score": 0.98,
+    "performance": 0.99,
+    "accessibility": 0.99,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/aboutepa",
+    "score": 0.96,
+    "performance": 0.95,
+    "accessibility": 0.98,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/aboutepa/about-administrator-epas-mountains-and-plains-region-region-8",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/aboutepa/about-deputy-director-epas-center-computational-toxicology-and-exposure",
+    "score": 0.97,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/aboutepa/about-epas-deputy-assistant-administrator-administration-and-resources-management",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/aboutepa/about-region-3s-laboratory-and-field-services-epas-environmental-science-center",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/aboutepa/administrator-michael-regan-message-epa-employees-our-commitment-ethics-june-2-2022",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/aboutepa/forms/contact-epa-region-2",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/aboutepa/forms/contact-epas-office-policy",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/aboutepa/forms/contact-epas-office-water",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/aboutepa/forms/contact-epas-pacific-southwest-office-region-9",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/aboutepa/forms/contact-epas-region-3-office",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/aboutepa/forms/contact-office-chemical-safety-and-pollution-prevention",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/aboutepa/forms/contact-us-about-epas-national-analytical-radiation-environmental-laboratory-narel",
+    "score": 0.98,
+    "performance": 0.99,
+    "accessibility": 0.99,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/aboutepa/forms/covid-19-screener",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/aboutepa/organization-epas-region-10-office-seattle",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/aboutepa/organization-epas-region-3-office-philadelphia",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/aboutepa/region-6-employee-access",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/accessibility",
+    "score": 0.98,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/accessibility/epa-accessibility-statement",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/accessibility/forms/contact-us-about-section-508-accessibility",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/acidrain",
+    "score": 0.98,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/acidrain/acid-rain-program",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/acidrain/acid-rain-program-2021-applicability-determinations",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/acidrain/acid-rain-program-applicability-determinations",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/acidrain/acid-rain-program-results",
+    "score": 0.98,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/acidrain/effects-acid-rain",
+    "score": 0.98,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/acidrain/forms/contact-us-about-acid-rain",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/acidrain/learning-about-acid-rain-teachers-guide-grades-6-through-8",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/acidrain/what-acid-rain",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/advance",
+    "score": 0.96,
+    "performance": 0.94,
+    "accessibility": 0.98,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/advance/advance-program-tool",
+    "score": 0.86,
+    "performance": 0.52,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/advance/advance-template-letter",
+    "score": 0.98,
+    "performance": 0.98,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/advance/colorado-springs-pikes-peak-ozone-advance-sign-letter",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/advance/control-measures-programs",
+    "score": 0.97,
+    "performance": 1,
+    "accessibility": 0.97,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/advance/forms/contact-us-about-advance-program",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/advance/health-effects-ozone-and-particulate-matter",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/advance/program-participants-iowa",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/advance/programs-and-initiatives",
+    "score": 0.98,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/advance/resources-and-technical-assistance",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/aegl",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/aegl/acute-exposure-guideline-levels-aegls-committee-meeting-january-8-10-2001",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/aegl/bz-results-aegl-program",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/aegl/cadmium-results-aegl-program",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/aegl/diphenyldichlorosilane-results-aegl-program",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/aegl/ethyl-isocyanate-results-aegl-program",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/aegl/forms/acute-exposure-guideline-levels-contact-us",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/aegl/propylene-glycol-dinitrate-results-aegl-program",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/aegl/sulfuryl-fluoride-results-aegl-program",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/aegl/t-octyl-mercaptan-results-aegl-program",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/afos-air",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/afos-air/agricultural-air-quality-conservation-measures-reference-guide-cropping-systems-and",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/afos-air/development-emissions-estimating-methodologies-broiler-operations-draft-february-2012",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/afos-air/draft-air-emissions-estimating-methodologies-animal-feeding-operations",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/afos-air/draft-swine-air-emission-models-animal-feeding-operations",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/afos-air/emission-standards-farm-equipment-boilers",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/afos-air/emission-standards-farm-equipment-engines",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/afos-air/epa-usda-agricultural-air-quality-memorandum-understanding",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/afos-air/forms/contact-us-about-air-monitoring-animal-feeding-operations-afos",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/afos-air/qapp-development-emission-estimating-methodologies-air-emissions-animal-feeding-operations",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/agriculture",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/agriculture/2020-report-supporting-rural-america",
+    "score": 0.98,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/agriculture/about-epas-national-agriculture-center",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/agriculture/ag-101-overview-agriculture",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/agriculture/agricultural-animal-production",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/agriculture/agricultural-nurseries-and-greenhouses",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/agriculture/carcass-management-non-diseased-animals-response-coronavirus-outbreak-covid-19",
+    "score": 0.98,
+    "performance": 0.98,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/agriculture/coronaviruscovid-19",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/agriculture/forms/contact-us-about-agriculture",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/agriculture/organic-farming",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/agstar",
+    "score": 0.93,
+    "performance": 0.88,
+    "accessibility": 0.98,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/agstar/agstar-project-profiles",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/agstar/anaerobic-digestion-poultry-farms",
+    "score": 0.97,
+    "performance": 0.95,
+    "accessibility": 0.99,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/agstar/anaerobic-system-design-and-technology",
+    "score": 0.98,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/agstar/estimating-methane-reductions-operating-anaerobic-digestion-systems",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/agstar/forms/requests-agstar-program",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/agstar/got-manure-want-energy-we-can-help",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/agstar/innovative-business-models-farm-anaerobic-digestion-presentation",
+    "score": 0.98,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/agstar/meet-anaerobic-digester-operator-reinford-farms",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/agstar/training-resources",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-and-radiation/epas-treatment-biogenic-carbon-dioxide-emissions-stationary-sources-use-forest",
+    "score": 0.98,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-and-radiation/forms/contact-us-about-programs-and-policies-office-air-and-radiation",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-and-radiation/inflation-reduction-act-non-regulatory-dockets-public-input",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-and-radiation/policy-update-epa-programmatic-treatment-biomass-and-forest-products-industry",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-and-radiation/questions-regarding-oars-implementation-inflation-reduction-act",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-and-radiation/rescission-2020-benefit-cost-rule",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-and-radiation/testimony-acting-assistant-administrator-anne-idsal-hr-3006-renewable-fuel",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-and-radiation/tri-agency-response-congress-biomass-carbon-neutrality",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-emissions-factors-and-quantification",
+    "score": 0.98,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-emissions-factors-and-quantification/ap-42-chapter-12-metallurgical-industry-frequent-questions",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-emissions-factors-and-quantification/ap-42-fifth-edition-volume-i-chapter-4-evaporation-loss-0",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-emissions-factors-and-quantification/ap-42-frequent-questions",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-emissions-factors-and-quantification/ap-42-section-154-final-projectiles-canisters-and-0",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-emissions-factors-and-quantification/ap-42-section-155-grenades-related-information-0",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-emissions-factors-and-quantification/forms/contact-us-about-air-emissions-factors",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-emissions-factors-and-quantification/new-and-revised-emissions-factors-flares-and-new-emissions",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-emissions-factors-and-quantification/procedures-development-emissions-factors-stationary",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-emissions-factors-and-quantification/section-119-western-surface-coal-mining-related",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-emissions-inventories",
+    "score": 0.95,
+    "performance": 0.91,
+    "accessibility": 0.98,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-emissions-inventories/2017-national-emissions-inventory-nei-data",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-emissions-inventories/air-emissions-inventory-guidance-documents",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-emissions-inventories/air-pollutant-emissions-trends-data",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-emissions-inventories/eis-bridge-tools",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-emissions-inventories/forms/contact-list-2021-emissions-inventory-virtual-seminar-series",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-emissions-inventories/forms/contact-us-about-air-emissions-inventories",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-emissions-inventories/international-inventories-session-2019-eic",
+    "score": 0.97,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-emissions-inventories/poster-sessions-2017-international-emissions-inventory-conference",
+    "score": 0.97,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-emissions-inventories/session-9-toolsemerging-technologies-2015-eic",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-emissions-inventories/where-are-naics-sic-and-scc-codes-changes-have-been-implemented-2017nei-0",
+    "score": 0.98,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-emissions-modeling",
+    "score": 0.97,
+    "performance": 0.94,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-emissions-modeling/2005-version-4-air-emissions-modeling-platforms",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-emissions-modeling/2005-version-42-platform",
+    "score": 0.97,
+    "performance": 0.96,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-emissions-modeling/2005-version-43-platform",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-emissions-modeling/2011-version-61-technical-support-document",
+    "score": 0.98,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-emissions-modeling/2011v63-technical-support-document-tsd-update-2023",
+    "score": 0.98,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-emissions-modeling/2016-version-72-technical-support-document",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-emissions-modeling/2017-2019-air-emissions-modeling-platforms",
+    "score": 0.98,
+    "performance": 0.98,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-emissions-modeling/2017-emissions-modeling-platform-technical-support-document",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-emissions-modeling/forms/contact-us-about-air-emissions-modeling",
+    "score": 0.98,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-emissions-monitoring-knowledge-base",
+    "score": 0.98,
+    "performance": 0.99,
+    "accessibility": 0.99,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-emissions-monitoring-knowledge-base/compliance-assurance-monitoring",
+    "score": 0.98,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-emissions-monitoring-knowledge-base/compliance-assurance-monitoring-documents",
+    "score": 0.97,
+    "performance": 0.95,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-emissions-monitoring-knowledge-base/compliance-assurance-monitoring-technical-guidance-7",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-emissions-monitoring-knowledge-base/compliance-assurance-monitoring-technical-guidance-document",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-emissions-monitoring-knowledge-base/forms/contact-us-about-air-emissions-monitoring-knowledge",
+    "score": 0.96,
+    "performance": 0.91,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-emissions-monitoring-knowledge-base/forms/contact-us-about-ambient-air-quality-monitoring",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-emissions-monitoring-knowledge-base/forms/contact-us-about-compliance-assurance-monitoring-and",
+    "score": 0.97,
+    "performance": 0.96,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-emissions-monitoring-knowledge-base/forms/contact-us-about-emissions-monitoring-printing-and",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-emissions-monitoring-knowledge-base/forms/contact-us-about-new-source-review-permits",
+    "score": 0.98,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-emissions-monitoring-knowledge-base/forms/contact-us-about-title-v-innovativeflexible-permits",
+    "score": 0.96,
+    "performance": 0.92,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-emissions-monitoring-knowledge-base/monitoring-control-technique-fabric-filters-documents",
+    "score": 0.98,
+    "performance": 0.98,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-emissions-monitoring-knowledge-base/printing-and-publishing-north-american-industry",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-emissions-monitoring-knowledge-base/publications-supporting-air-emissions-monitoring",
+    "score": 0.97,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-emissions-monitoring-knowledge-base/summary-monitoring-requirements-printing-and-publishing",
+    "score": 0.98,
+    "performance": 0.98,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-quality-analysis",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-quality-analysis/analysis-relating-w126-metric-and-annual-4th-highest-daily-maximum-8-hour",
+    "score": 0.98,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-quality-analysis/exceptional-events-documents-ozone-kansas",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-quality-analysis/exceptional-events-documents-particulate-matter-albuquerque-nm",
+    "score": 0.98,
+    "performance": 0.98,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-quality-analysis/fact-sheet-final-revisions-2007-exceptional-events-rule-and-notice",
+    "score": 0.97,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-quality-analysis/fact-sheet-wildland-fire-and-air-quality",
+    "score": 0.98,
+    "performance": 0.98,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-quality-analysis/forms/contact-us-about-air-quality-analysis",
+    "score": 0.97,
+    "performance": 0.95,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-quality-analysis/guidance-preparation-exceptional-events-demonstrations-stratospheric-ozone",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-quality-analysis/how-submit-exceptional-events-processes-and-mitigation-plans",
+    "score": 0.97,
+    "performance": 0.95,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-quality-analysis/updated-exceptional-events-rule-faqs",
+    "score": 0.98,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-quality-data-and-tools",
+    "score": 0.97,
+    "performance": 0.96,
+    "accessibility": 0.99,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-quality-data-and-tools/air-pollution-training-institute-public-training-site",
+    "score": 0.97,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-quality-data-and-tools/forms/air-quality-flag-program-new-participant-webinar",
+    "score": 0.98,
+    "performance": 0.98,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-quality-data-and-tools/forms/contact-us-about-air-quality-data-and-tools",
+    "score": 0.97,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-quality-implementation-plans",
+    "score": 0.98,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-quality-implementation-plans/approved-air-quality-implementation-plans-region-1",
+    "score": 0.97,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/air-quality-implementation-plans/approved-air-quality-implementation-plans-region-9",
+    "score": 0.97,
+    "performance": 0.94,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/AirToxScreen",
+    "score": 0.93,
+    "performance": 0.91,
+    "accessibility": 0.98,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/AirToxScreen/2017-airtoxscreen-assessment-results",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/AirToxScreen/2017-airtoxscreen-technical-support-document",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/AirToxScreen/2018-airtoxscreen",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/AirToxScreen/2018-airtoxscreen-assessment-results",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/AirToxScreen/airtoxscreen-explanation-data-elements",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/AirToxScreen/airtoxscreen-frequent-questions",
+    "score": 0.96,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/AirToxScreen/airtoxscreen-glossary-terms",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/AirToxScreen/airtoxscreen-technical-support-document",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/AirToxScreen/forms/contact-us-about-air-toxics-screening-assessment",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/G3",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/G3/forms/apply-become-g3-featured-community",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/G3/forms/contact-us-about-green-streets-green-jobs-green-towns-program",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/G3/getting-green-faster-and-cheaper",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/G3/green-jobs-your-community",
+    "score": 0.98,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/G3/green-street-green-jobs-green-towns-g3-webcasts-podcasts-blogs-and-listservs",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/G3/green-street-practices",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/G3/green-streets-green-jobs-green-towns-g3-initiative-and-approach",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/G3/learn-about-green-streets",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/G3/modeling-tools-support-green-streets-green-jobs-green-towns-approach",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/G3/public-private-partnerships-beneficial-implementing-green-infrastructure",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/P3",
+    "score": 0.96,
+    "performance": 0.94,
+    "accessibility": 0.98,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/P3/2014-p3-award-winners",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/P3/20142015-p3-teams",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/P3/2021-p3-expo-rare-earth-elements-recovery-using-food-waste",
+    "score": 0.9,
+    "performance": 0.76,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 1
+  },
+  {
+    "path": "/P3/2021-p3-expo-smartphones-reduce-food-waste-and-insecurity",
+    "score": 0.9,
+    "performance": 0.79,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 1
+  },
+  {
+    "path": "/P3/2021-p3-expo-tertiary-wastewater-treatment-through-aquaponics",
+    "score": 0.93,
+    "performance": 0.9,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 1
+  },
+  {
+    "path": "/P3/2021-p3-expo-voc-sensors-ppb-level-detection-and-speciation",
+    "score": 0.87,
+    "performance": 0.67,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 1
+  },
+  {
+    "path": "/P3/2021-p3-expo-wet-wipes-turn-toilet-paper-when-flushed",
+    "score": 0.9,
+    "performance": 0.77,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 1
+  },
+  {
+    "path": "/P3/2nd-annual-p3-grant-recipients",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/P3/forms/contact-us-about-p3-student-design-competition",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.92,
+    "seo": 1
+  }
+]

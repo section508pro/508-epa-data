@@ -1,0 +1,223 @@
+[
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-303-H3",
+            "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,2,DIV,0,DIV,9,H3",
+            "selector": "article.article > div > div > h3.highlight",
+            "boundingRect": {
+              "top": 1751,
+              "bottom": 1793,
+              "left": 24,
+              "right": 388,
+              "width": 364,
+              "height": 42
+            },
+            "snippet": "<h3 class=\"highlight\">",
+            "nodeLabel": "Headlines",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-42-A",
+            "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,2,DIV,0,DIV,0,FIGURE,0,DIV,0,A",
+            "selector": "div > figure.figure > div.figure__media > a",
+            "boundingRect": {
+              "top": 522,
+              "bottom": 544,
+              "left": 24,
+              "right": 344,
+              "width": 320,
+              "height": 22
+            },
+            "snippet": "<a href=\"/system/files/images/2022-09/CIG%20pg%20planning%20group.png\">",
+            "nodeLabel": "div > figure.figure > div.figure__media > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-43-A",
+            "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,2,DIV,0,DIV,2,FIGURE,0,DIV,0,A",
+            "selector": "div > figure.figure > div.figure__media > a",
+            "boundingRect": {
+              "top": 1029,
+              "bottom": 1051,
+              "left": 24,
+              "right": 184,
+              "width": 160,
+              "height": 22
+            },
+            "snippet": "<a href=\"/environmentaljustice/factsheet-epas-office-environmental-justice\">",
+            "nodeLabel": "div > figure.figure > div.figure__media > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-49-A",
+            "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,2,DIV,0,DIV,8,FIGURE,0,DIV,0,A",
+            "selector": "div > figure.figure > div.figure__media > a",
+            "boundingRect": {
+              "top": 1626,
+              "bottom": 1648,
+              "left": 24,
+              "right": 184,
+              "width": 160,
+              "height": 22
+            },
+            "snippet": "<a href=\"/system/files/images/2022-09/CIG%20pg%20headlines%20icon.png\">",
+            "nodeLabel": "div > figure.figure > div.figure__media > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-62-A",
+            "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,2,DIV,0,DIV,18,FIGURE,0,DIV,0,A",
+            "selector": "div > figure.figure > div.figure__media > a",
+            "boundingRect": {
+              "top": 4331,
+              "bottom": 4353,
+              "left": 24,
+              "right": 184,
+              "width": 160,
+              "height": 22
+            },
+            "snippet": "<a href=\"/system/files/images/2022-09/CIG%20pg%20funding%20%26%20tech%20icon.png\">",
+            "nodeLabel": "div > figure.figure > div.figure__media > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-78-A",
+            "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,2,DIV,0,DIV,29,FIGURE,0,DIV,0,A",
+            "selector": "div > figure.figure > div.figure__media > a",
+            "boundingRect": {
+              "top": 8016,
+              "bottom": 8038,
+              "left": 24,
+              "right": 344,
+              "width": 320,
+              "height": 22
+            },
+            "snippet": "<a href=\"/system/files/images/2022-09/CIG%20pg%20kids%20recycling.png\">",
+            "nodeLabel": "div > figure.figure > div.figure__media > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-97-A",
+            "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,2,DIV,0,DIV,53,FIGURE,0,DIV,0,A",
+            "selector": "div > figure.figure > div.figure__media > a",
+            "boundingRect": {
+              "top": 12400,
+              "bottom": 12422,
+              "left": 24,
+              "right": 184,
+              "width": 160,
+              "height": 22
+            },
+            "snippet": "<a href=\"/system/files/images/2022-09/CIG%20pg%20mtgs%20conf%20%26%20events%20icon.…\">",
+            "nodeLabel": "div > figure.figure > div.figure__media > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-105-A",
+            "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,2,DIV,0,DIV,60,FIGURE,0,DIV,0,A",
+            "selector": "div > figure.figure > div.figure__media > a",
+            "boundingRect": {
+              "top": 14091,
+              "bottom": 14113,
+              "left": 24,
+              "right": 184,
+              "width": 160,
+              "height": 22
+            },
+            "snippet": "<a href=\"/system/files/images/2022-09/CIG%20pg%20webinars%20%26%20conf%20calls%20ic…\">",
+            "nodeLabel": "div > figure.figure > div.figure__media > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 7
+  }
+]

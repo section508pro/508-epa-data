@@ -1,0 +1,57 @@
+[
+  {
+    "id": "frame-title",
+    "title": "`<frame>` or `<iframe>` elements do not have a title",
+    "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more](https://web.dev/frame-title/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-206-IFRAME",
+            "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,9,P,0,STRONG,0,IFRAME",
+            "selector": "div > p > strong > iframe#SPECIATE Data Browser",
+            "boundingRect": {
+              "top": 1067,
+              "bottom": 1867,
+              "left": 24,
+              "right": 388,
+              "width": 364,
+              "height": 800
+            },
+            "snippet": "<iframe height=\"800\" id=\"SPECIATE Data Browser\" name=\"SPECIATE Data Browser\" scrolling=\"yes\" src=\"https://edap.epa.gov/public/single/?appid=fc3f186a-f39c-46d9-afa6-d4c3556b…\" width=\"1600\">",
+            "nodeLabel": "div > p > strong > iframe#SPECIATE Data Browser",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag241",
+          "wcag412",
+          "section508",
+          "section508.22.i"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

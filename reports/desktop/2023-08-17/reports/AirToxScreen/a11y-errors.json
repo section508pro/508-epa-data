@@ -1,0 +1,96 @@
+[
+  {
+    "id": "aria-hidden-focus",
+    "title": "`[aria-hidden=\"true\"]` elements contain focusable descendents",
+    "description": "Focusable descendents within an `[aria-hidden=\"true\"]` element prevent those interactive elements from being available to users of assistive technologies like screen readers. [Learn more](https://web.dev/aria-hidden-focus/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-225-LI",
+            "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,1,LI",
+            "selector": "div#tns1-ow > div#tns1-iw > ul#tns1 > li#tns1-item1",
+            "boundingRect": {
+              "top": 294,
+              "bottom": 644,
+              "left": -1350,
+              "right": 0,
+              "width": 1350,
+              "height": 350
+            },
+            "snippet": "<li class=\"hero-slideshow__item tns-item tns-normal\" id=\"tns1-item1\" aria-hidden=\"true\" tabindex=\"-1\" style=\"\">",
+            "nodeLabel": "AirToxScreen\n\nUse the AirToxScreen Mapping Tool to see AirToxScreen's risk resu…",
+            "explanation": "Fix all of the following:\n  Focusable content should have tabindex='-1' or be removed from the DOM"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-42-A",
+                  "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,1,LI,0,SECTION,0,DIV,0,DIV,1,P,1,A",
+                  "selector": "div.grid-container > div.usa-hero__callout > p > a",
+                  "boundingRect": {
+                    "top": 414,
+                    "bottom": 436,
+                    "left": -504,
+                    "right": -307,
+                    "width": 197,
+                    "height": 22
+                  },
+                  "snippet": "<a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"87c48ba0-e798-4e27-a33b-4f40ca661ef6\" href=\"/AirToxScreen/airtoxscreen-mapping-tool\">",
+                  "nodeLabel": "AirToxScreen Mapping Tool"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-43-A",
+                  "path": "1,HTML,1,BODY,4,DIV,3,MAIN,0,DIV,0,DIV,1,ARTICLE,2,DIV,0,DIV,1,DIV,0,UL,1,LI,0,SECTION,0,DIV,0,DIV,1,P,3,A",
+                  "selector": "div.grid-container > div.usa-hero__callout > p > a",
+                  "boundingRect": {
+                    "top": 465,
+                    "bottom": 487,
+                    "left": -353,
+                    "right": -261,
+                    "width": 92,
+                    "height": 22
+                  },
+                  "snippet": "<a href=\"https://www.youtube.com/watch?v=ViFt2UamVFo\" data-once=\"external-links protected-links\">",
+                  "nodeLabel": "Click here"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

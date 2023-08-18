@@ -1,0 +1,351 @@
+[
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-287-H4",
+            "path": "1,HTML,1,BODY,6,DIV,3,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,2,DIV,0,DIV,0,H4",
+            "selector": "article.article > div > div > h4",
+            "boundingRect": {
+              "top": 381,
+              "bottom": 419,
+              "left": 24,
+              "right": 388,
+              "width": 364,
+              "height": 38
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "Serving Iowa, Kansas, Missouri, Nebraska, and Nine Tribal Nations",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-70-A",
+            "path": "1,HTML,1,BODY,6,DIV,3,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,2,DIV,0,DIV,2,DIV,1,DIV,12,A",
+            "selector": "div > div#related > div.box__content > a",
+            "boundingRect": {
+              "top": 2061,
+              "bottom": 2083,
+              "left": 334,
+              "right": 334,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a href=\"/system/files/images/2023-04/Careers%20video%20thumb%20SUPR%20ERRP.png\">",
+            "nodeLabel": "div > div#related > div.box__content > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-71-A",
+            "path": "1,HTML,1,BODY,6,DIV,3,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,2,DIV,0,DIV,2,DIV,1,DIV,13,A",
+            "selector": "div > div#related > div.box__content > a",
+            "boundingRect": {
+              "top": 2061,
+              "bottom": 2083,
+              "left": 334,
+              "right": 334,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a href=\"/system/files/images/2023-04/Careers%20video%20thumb%20SUPR%20ERRP.png\">",
+            "nodeLabel": "div > div#related > div.box__content > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "listitem",
+    "title": "List items (`<li>`) are not contained within `<ul>` or `<ol>` parent elements.",
+    "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>` or `<ol>` to be announced properly. [Learn more](https://web.dev/listitem/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-288-LI",
+            "path": "1,HTML,1,BODY,6,DIV,3,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,2,DIV,0,DIV,11,LI",
+            "selector": "article.article > div > div > li",
+            "boundingRect": {
+              "top": 4450,
+              "bottom": 4501,
+              "left": 24,
+              "right": 388,
+              "width": 364,
+              "height": 51
+            },
+            "snippet": "<li>",
+            "nodeLabel": "EPA Fines Waterloo, Iowa, Company for Alleged Chemical Risk Prevention Violatio…",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-289-LI",
+            "path": "1,HTML,1,BODY,6,DIV,3,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,2,DIV,0,DIV,12,LI",
+            "selector": "article.article > div > div > li",
+            "boundingRect": {
+              "top": 4505,
+              "bottom": 4556,
+              "left": 24,
+              "right": 388,
+              "width": 364,
+              "height": 51
+            },
+            "snippet": "<li>",
+            "nodeLabel": "EPA Partially Approves, Partially Disapproves Missouri’s List of Impaired Waters",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-290-LI",
+            "path": "1,HTML,1,BODY,6,DIV,3,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,2,DIV,0,DIV,13,LI",
+            "selector": "article.article > div > div > li",
+            "boundingRect": {
+              "top": 4560,
+              "bottom": 4611,
+              "left": 24,
+              "right": 388,
+              "width": 364,
+              "height": 51
+            },
+            "snippet": "<li>",
+            "nodeLabel": "EPA Region 7 to Showcase Mobile Response Vehicles at Iowa State Fair",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-291-LI",
+            "path": "1,HTML,1,BODY,6,DIV,3,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,2,DIV,0,DIV,14,LI",
+            "selector": "article.article > div > div > li",
+            "boundingRect": {
+              "top": 4616,
+              "bottom": 4666,
+              "left": 24,
+              "right": 388,
+              "width": 364,
+              "height": 51
+            },
+            "snippet": "<li>",
+            "nodeLabel": "EPA Fines Hastings, Nebraska, Landlord for Alleged Lead-Based Paint Violations",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-292-LI",
+            "path": "1,HTML,1,BODY,6,DIV,3,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,2,DIV,0,DIV,15,LI",
+            "selector": "article.article > div > div > li",
+            "boundingRect": {
+              "top": 4671,
+              "bottom": 4721,
+              "left": 24,
+              "right": 388,
+              "width": 364,
+              "height": 51
+            },
+            "snippet": "<li>",
+            "nodeLabel": "Kansas City Blade Manufacturer to Pay Penalty for Alleged Violations of Environ…",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-293-LI",
+            "path": "1,HTML,1,BODY,6,DIV,3,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,2,DIV,0,DIV,16,LI",
+            "selector": "article.article > div > div > li",
+            "boundingRect": {
+              "top": 4726,
+              "bottom": 4802,
+              "left": 24,
+              "right": 388,
+              "width": 364,
+              "height": 76
+            },
+            "snippet": "<li>",
+            "nodeLabel": "Fabricante de cuchillas de Kansas City pagará multa por presuntas violaciones d…",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-294-LI",
+            "path": "1,HTML,1,BODY,6,DIV,3,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,2,DIV,0,DIV,17,LI",
+            "selector": "article.article > div > div > li",
+            "boundingRect": {
+              "top": 4806,
+              "bottom": 4882,
+              "left": 24,
+              "right": 388,
+              "width": 364,
+              "height": 76
+            },
+            "snippet": "<li>",
+            "nodeLabel": "EPA Invites Public to Attend July 18 Community Advisory Group Meeting for West …",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-295-LI",
+            "path": "1,HTML,1,BODY,6,DIV,3,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,2,DIV,0,DIV,18,LI",
+            "selector": "article.article > div > div > li",
+            "boundingRect": {
+              "top": 4887,
+              "bottom": 4963,
+              "left": 24,
+              "right": 388,
+              "width": 364,
+              "height": 76
+            },
+            "snippet": "<li>",
+            "nodeLabel": "La Región 7 de la EPA celebra la apertura del Centro de Asistencia Técnica para…",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-296-LI",
+            "path": "1,HTML,1,BODY,6,DIV,3,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,2,DIV,0,DIV,19,LI",
+            "selector": "article.article > div > div > li",
+            "boundingRect": {
+              "top": 4967,
+              "bottom": 5043,
+              "left": 24,
+              "right": 388,
+              "width": 364,
+              "height": 76
+            },
+            "snippet": "<li>",
+            "nodeLabel": "EPA Region 7 Celebrates Opening of WSU’s Environmental Justice Thriving Communi…",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-297-LI",
+            "path": "1,HTML,1,BODY,6,DIV,3,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,2,DIV,0,DIV,20,LI",
+            "selector": "article.article > div > div > li",
+            "boundingRect": {
+              "top": 5048,
+              "bottom": 5124,
+              "left": 24,
+              "right": 388,
+              "width": 364,
+              "height": 76
+            },
+            "snippet": "<li>",
+            "nodeLabel": "EPA Announces July 19 Community Meeting to Discuss Results of Ethylene Oxide Ai…",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 10
+  }
+]
